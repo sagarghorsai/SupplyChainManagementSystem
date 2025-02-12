@@ -31,8 +31,6 @@ CREATE TABLE Product (
 /*                    ORDER MANAGEMENT                                   */
 /*    Managing order creation, tracking, processing, and delivery.       */
 /*************************************************************************/
--- NOTE: "Order" can be a reserved keyword, depending on your SQL dialect.
--- To avoid conflicts, you can either quote the table name or rename it to Orders.
 CREATE TABLE `Orders` (
     order_id         INT         NOT NULL,
     supplier_id      INT         NOT NULL,
