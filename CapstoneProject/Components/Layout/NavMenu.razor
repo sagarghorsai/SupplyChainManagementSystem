@@ -1,4 +1,7 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using CapstoneProject.Components.Models
+@inject DatabaseHelper DbHelper
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">CapstoneProject</a>
     </div>
@@ -28,3 +31,45 @@
     </nav>
 </div>
 
+<!-- Button to Check Database Connection -->
+<div class="px-3 mt-3">
+    <button class="btn btn-primary" @onclick="CheckDatabaseConnection">Check DB Connection</button>
+    <p>@dbStatus</p>
+</div>
+
+@code {
+    private string dbStatus = "Click to check DB connection";
+
+    private async Task CheckDatabaseConnection()
+    {
+        // For debugging, log to console
+        Console.WriteLine("Button clicked! Checking DB connection...");
+
+        // Verify if DbHelper is injected
+        if (DbHelper == null)
+        {
+            dbStatus = "Database Helper is not available.";
+            StateHasChanged();
+            return;
+        }
+
+        try
+        {
+            // Try to open a connection
+            using var connection = DbHelper.GetConnection();
+            await connection.OpenAsync();
+            dbStatus = "Database Connection Successful ✅";
+        }
+        catch (Exception ex)
+        {
+            dbStatus = $"Connection Failed ❌: {ex.Message}";
+        }
+
+        // Trigger a UI update
+        StateHasChanged();
+
+        // Debugging message to ensure method is executed
+        Console.WriteLine($"DB Status: {dbStatus}");
+    }
+}
+}

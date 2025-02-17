@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\SCM\\CapstoneProject\\CapstoneProject.csproj": {}
+    "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\CapstoneProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\SCM\\CapstoneProject\\CapstoneProject.csproj": {
+    "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\CapstoneProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\SCM\\CapstoneProject\\CapstoneProject.csproj",
+        "projectUniqueName": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\CapstoneProject.csproj",
         "projectName": "CapstoneProject",
-        "projectPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\SCM\\CapstoneProject\\CapstoneProject.csproj",
+        "projectPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\CapstoneProject.csproj",
         "packagesPath": "C:\\Users\\dosti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\SCM\\CapstoneProject\\obj\\",
+        "outputPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

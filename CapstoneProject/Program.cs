@@ -1,4 +1,5 @@
 using CapstoneProject.Components;
+using CapstoneProject.Components.Models;
 
 namespace CapstoneProject
 {
@@ -7,12 +8,14 @@ namespace CapstoneProject
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddSingleton<DatabaseHelper>();
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

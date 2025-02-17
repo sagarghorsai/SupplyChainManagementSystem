@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HIRZXNTRPD1XXAENPcn7Q7vv0hLnkehHKGMRVE/D/dQ=",
+  "Hash": "sSEI5nA6iaJ04dH40Sm6a7Cta+RrLqnxMbbaYHjPdeY=",
   "Source": "CapstoneProject",
   "BasePath": "_content/CapstoneProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CapstoneProject\\wwwroot",
       "Source": "CapstoneProject",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CapstoneProject.styles.css",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CapstoneProject.styles.css",
       "SourceId": "CapstoneProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "CapstoneProject.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CapstoneProject.styles.css"
+      "OriginalItemSpec": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CapstoneProject.styles.css"
     },
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css",
       "SourceId": "CapstoneProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "CapstoneProject.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\app.css",
       "SourceId": "CapstoneProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CapstoneProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CapstoneProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",
       "SourceId": "CapstoneProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Davenport\\Winter 2025\\CSCI497 - Computer Science Capstone\\SCM\\CapstoneProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
