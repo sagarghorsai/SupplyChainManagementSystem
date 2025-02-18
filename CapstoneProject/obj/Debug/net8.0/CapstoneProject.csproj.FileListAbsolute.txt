@@ -104,3 +104,5 @@ C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\
 C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\Capstone.1AEDF026.Up2Date
 C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.genruntimeconfig.cache
 C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\ref\CapstoneProject.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.RazorAssemblyInfo.cache
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.RazorAssemblyInfo.cs
