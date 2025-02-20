@@ -1,12 +1,47 @@
 ﻿@page "/inventory"
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
+@using CapstoneProject.Components.Model
 
 @inject IProductData _db;
 
 <PageTitle>Inventory</PageTitle>
 
 <h1>Inventory</h1>
+
+<h4>Insert New Product</h4>
+
+<EditForm Model="@newProduct" OnValidSubmit="@InsertProduct" FormName="newProductForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="Name">Product Name:</label>
+        <InputText id="Name" @bind-Value="newProduct.Name" />
+        <ValidationMessage For="@(() => newProduct.Name)" />
+    </div>
+
+    <div>
+        <label for="Description">Description:</label>
+        <InputText id="Description" @bind-Value="newProduct.Description" />
+        <ValidationMessage For="@(() => newProduct.Description)" />
+    </div>
+
+    <div>
+        <label for="Unit_price">Unit Price:</label>
+        <InputNumber id="Unit_price" @bind-Value="newProduct.Unit_price" />
+        <ValidationMessage For="@(() => newProduct.Unit_price)" />
+    </div>
+
+    <div>
+        <label for="Quantity_available">Quantity Available:</label>
+        <InputNumber id="Quantity_available" @bind-Value="newProduct.Quantity_available" />
+        <ValidationMessage For="@(() => newProduct.Quantity_available)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
 
 <p>This component demonstrates showing data.</p>
 
@@ -36,8 +71,8 @@ else
                    <td>@p.Product_id</td>
                    <td>@p.Name</td>
                    <td>@p.Description</td>
-                   <td>@p.unit_price</td>
-                   <td>@p.quantity_available</td>
+                   <td>@p.Unit_price</td>
+                   <td>@p.Quantity_available</td>
 
 
                </tr>
@@ -53,9 +88,20 @@ else
     // List inventory as a table with search bar, stock indicators, and update options
 
     private List<ProductModel> products;
+    private DisplayProductModel newProduct = new DisplayProductModel();
     protected override async Task OnInitializedAsync()
     {
         products = await _db.GetProduct();
+    }
+
+    private async Task InsertProduct()
+    {
+        ProductModel productModel = new ProductModel(newProduct.Name, newProduct.Description, newProduct.Unit_price, newProduct.Quantity_available);
+
+
+        await _db.InsertProduct(productModel);
+        products.Add(productModel);
+        newProduct = new DisplayProductModel();
     }
 
 }

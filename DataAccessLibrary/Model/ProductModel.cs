@@ -10,15 +10,22 @@ namespace DataAccessLibrary.Model
 {
     public class ProductModel
     {
-        
         public int Product_id { get; set; }
-
         public string Name { get; set; }
-
         public string Description { get; set; }
+        public decimal Unit_price { get; set; }
+        public int Quantity_available { get; set; } = 0;
 
-        public decimal unit_price { get; set; }
+        // Parameterless Constructor
+        public ProductModel() { }
 
-        public int quantity_available { get; set; } = 0;
+        // Overloaded Constructor for Initialization
+        public ProductModel( string name, string description, decimal unitPrice, int quantityAvailable = 0)
+        {
+            Name = name;
+            Description = description;
+            Unit_price = unitPrice;
+            Quantity_available = quantityAvailable;
+        }
     }
 }

@@ -22,13 +22,19 @@ namespace DataAccessLibrary
             return _db.LoadData<ProductModel, dynamic>(sql, new { });
         }
 
-        public Task InsertProduct(ProductModel product)
+        public async Task InsertProduct(ProductModel product)
         {
-            string sql = @"
-           Product (name, description, unit_price, quantity_available) 
-            VALUES (@Name, @Description, @UnitPrice, @QuantityAvailable)";
+            if (string.IsNullOrWhiteSpace(product.Name))
+            {
+                throw new ArgumentException("Product name cannot be null or empty.");
+            }
 
-            return _db.SaveData(sql, product);
+            string sql = @"INSERT INTO Product (name, description, unit_price, quantity_available)  
+                   VALUES (@Name, @Description, @Unit_price, @Quantity_available);";
+
+
+            await _db.SaveData(sql, product);
         }
+
     }
 }
