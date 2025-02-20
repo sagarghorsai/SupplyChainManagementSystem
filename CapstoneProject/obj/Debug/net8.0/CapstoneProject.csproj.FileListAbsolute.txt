@@ -271,3 +271,13 @@ C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\Capston
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.csproj.AssemblyReference.cache
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.csproj.CopyComplete
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.csproj.AssemblyReference.cache
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.AssemblyInfoInputs.cache
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.AssemblyInfo.cs
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.csproj.CoreCompileInputs.cache
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.sourcelink.json
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\refint\CapstoneProject.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\obj\Debug\net8.0\CapstoneProject.pdb

@@ -4,7 +4,6 @@ namespace CapstoneProject.Components.Models
 {
     public class UserAuthentication
     {
-        private readonly DatabaseHelper _dbHelper;
 
         public UserAuthentication(DatabaseHelper dbHelper)
         {
