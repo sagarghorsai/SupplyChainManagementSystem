@@ -17,7 +17,7 @@ namespace DataAccessLibrary
 
         public Task<List<ProductModel>> GetProduct()
         {
-            string sql = "select *from SCM_DB.Product";
+            string sql = "select *from Product";
 
             return _db.LoadData<ProductModel, dynamic>(sql, new { });
         }
@@ -25,7 +25,7 @@ namespace DataAccessLibrary
         public Task InsertProduct(ProductModel product)
         {
             string sql = @"
-            INSERT INTO SCM_DB.Product (name, description, unit_price, quantity_available) 
+           Product (name, description, unit_price, quantity_available) 
             VALUES (@Name, @Description, @UnitPrice, @QuantityAvailable)";
 
             return _db.SaveData(sql, product);

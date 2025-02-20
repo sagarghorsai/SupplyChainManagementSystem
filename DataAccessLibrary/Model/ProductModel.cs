@@ -10,20 +10,15 @@ namespace DataAccessLibrary.Model
 {
     public class ProductModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ProductId { get; set; }
+        
+        public int Product_id { get; set; }
 
-        [Required]
-        [StringLength(50)]
         public string Name { get; set; }
 
-        [StringLength(255)]
         public string Description { get; set; }
 
-        [Column(TypeName = "decimal(10,2)")]
-        public decimal? UnitPrice { get; set; }
+        public decimal unit_price { get; set; }
 
-        public int QuantityAvailable { get; set; } = 0;
+        public int quantity_available { get; set; } = 0;
     }
 }

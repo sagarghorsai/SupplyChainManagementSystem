@@ -1,5 +1,8 @@
 ﻿@page "/inventory"
-@attribute [StreamRendering]
+@using DataAccessLibrary
+@using DataAccessLibrary.Model
+
+@inject IProductData _db;
 
 <PageTitle>Inventory</PageTitle>
 
@@ -7,60 +10,52 @@
 
 <p>This component demonstrates showing data.</p>
 
-@if (forecasts == null)
+<h4>Current Inventory</h4>
+
+@if(products is null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Loading......</em></p>
 }
 else
 {
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                    <th>ProductID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>UnitPrice</th>
+                    <th>QuantityAvaiable</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+
+            @foreach(var p in products)
             {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
+               <tr>
+                   <td>@p.Product_id</td>
+                   <td>@p.Name</td>
+                   <td>@p.Description</td>
+                   <td>@p.unit_price</td>
+                   <td>@p.quantity_available</td>
+
+
+               </tr>
+                
             }
         </tbody>
     </table>
+
 }
+
 
 @code {
     // List inventory as a table with search bar, stock indicators, and update options
 
-    private WeatherForecast[]? forecasts;
-
+    private List<ProductModel> products;
     protected override async Task OnInitializedAsync()
     {
-        // Simulate asynchronous loading to demonstrate streaming rendering
-        await Task.Delay(500);
-
-        var startDate = DateOnly.FromDateTime(DateTime.Now);
-        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = startDate.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = summaries[Random.Shared.Next(summaries.Length)]
-        }).ToArray();
+        products = await _db.GetProduct();
     }
 
-    private class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
-        public int TemperatureC { get; set; }
-        public string? Summary { get; set; }
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
 }
