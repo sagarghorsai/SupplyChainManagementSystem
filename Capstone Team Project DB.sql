@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS `scdb`;
+CREATE DATABASE `scdb`;
+USE `scdb`;
+
+
+
 /*************************************************************************/
 /*                   SUPPLIER MANAGEMENT                                 */
 /*        Managing relationships with suppliers, procurement, and        */
@@ -37,9 +43,13 @@ CREATE TABLE `Orders` (
     product_id       INT         NOT NULL,
     order_date       DATE,
     quantity_ordered INT         DEFAULT 1,
+    user_id			 INT		 NOT NULL,
+    
+    
     PRIMARY KEY (order_id),
     FOREIGN KEY (supplier_id) REFERENCES Supplier(supplier_id),
-    FOREIGN KEY (product_id)  REFERENCES Product(product_id)
+    FOREIGN KEY (product_id)  REFERENCES Product(product_id),
+    FOREIGN KEY (employee_id) 	  REFERENCES Employees(employee_id)
 );
 
 
@@ -54,6 +64,26 @@ CREATE TABLE Shipment (
     shipment_date           DATE,
     estimated_arrival_date  DATE,
     actual_arrival_date     DATE,
+    
+    
     PRIMARY KEY (shipment_id),
-    FOREIGN KEY (order_id) REFERENCES `Order`(order_id)
+    FOREIGN KEY (order_id) REFERENCES `Orders`(order_id)
+);
+
+
+/*************************************************************************/
+/*                   EMPLOYEE AUTHENTICATION                             */
+/*    Stores employee information such as full name, username, password, */
+/*           Employee ID, and Administration level (if applicable).      */
+/*************************************************************************/
+
+CREATE TABLE  Employees(
+	employee_first 			VARCHAR(30) NOT NULL,
+    employee_last 			VARCHAR(30) NOT NULL,
+	user_name				VARCHAR(20) NOT NULL,
+    user_password			VARCHAR(50) NOT NULL,
+    employee_id 			INT 		DEFAULT 1,
+ /* admin_level 			INT			DEFAULT 1, */
+    
+    PRIMARY KEY (employee_id)
 );
