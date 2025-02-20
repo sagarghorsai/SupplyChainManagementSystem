@@ -1,5 +1,6 @@
 using CapstoneProject.Components;
-using CapstoneProject.Components.Models;
+using DataAccessLibrary;
+
 
 namespace CapstoneProject
 {
@@ -8,9 +9,14 @@ namespace CapstoneProject
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddSingleton<DatabaseHelper>();
-
             // Add services to the container.
+            builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            builder.Services.AddTransient<IProductData, ProductData>();
+            builder.Services.AddTransient<IUsersData, UsersData>();
+
+
+            // Register DatabaseHelper as a singleton or scoped service
+
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
