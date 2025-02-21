@@ -18,8 +18,6 @@ namespace DataAccessLibrary.Model
 
         // Parameterless Constructor
         public ProductModel() { }
-
-        // Overloaded Constructor for Initialization
         public ProductModel( string name, string description, decimal unitPrice, int quantityAvailable = 0)
         {
             Name = name;

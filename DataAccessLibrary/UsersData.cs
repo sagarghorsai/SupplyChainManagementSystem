@@ -1,35 +1,46 @@
 ﻿using DataAccessLibrary.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLibrary
 {
-    public class UsersData : IUsersData
+    public class UserData : IUserData
     {
         private readonly ISqlDataAccess _db;
-        public UsersData(ISqlDataAccess db)
+        public UserData(ISqlDataAccess db)
         {
             _db = db;
         }
 
-        public Task<List<UsersModel>> GetUsers()
+        public async Task<UsersModel> Login(string email, string password)
         {
-            string sql = "select *from SCM_DB.Users";
+            string sql = "SELECT * FROM Users WHERE Email = @Email AND PasswordHash = @Password";
 
-            return _db.LoadData<UsersModel, dynamic>(sql, new { });
+            var users = await _db.LoadData<UsersModel, dynamic>(sql, new { Email = email, Password = password });
+
+            return users.FirstOrDefault();
         }
 
-        public Task InsertProduct(UsersModel product)
+        public async Task Register(UsersModel user)
         {
-            string sql = @"
-            INSERT INTO SCM_DB.Product (name, description, unit_price, quantity_available) 
-            VALUES (@Name, @Description, @UnitPrice, @QuantityAvailable)";
+            if (string.IsNullOrWhiteSpace(user.UserName) || string.IsNullOrWhiteSpace(user.UserPassword))
+            {
+                throw new ArgumentException("Email and password cannot be empty.");
+            }
 
-            return _db.SaveData(sql, product);
+            string sql = @"INSERT INTO Users (FullName, Email, PasswordHash, Role)  
+                   VALUES (@FullName, @Email, @PasswordHash, @Role);";
+
+            await _db.SaveData(sql, user);
         }
 
+        public async Task<bool> EmailExists(string email)
+        {
+            string sql = "SELECT COUNT(1) FROM Users WHERE Email = @Email";
+            var count = await _db.LoadData<int, dynamic>(sql, new { Email = email });
+
+            return count.FirstOrDefault() > 0;
+        }
     }
 }
