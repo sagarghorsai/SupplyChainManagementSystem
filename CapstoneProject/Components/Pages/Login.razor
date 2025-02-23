@@ -6,9 +6,47 @@
 @inject IUserData _db;
 <h3>Login</h3>
 
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4" style="width: 400px;">
+        <div class="text-center mb-3">
+            <img src="/images/avatar.png" alt="Avatar" class="rounded-circle" style="max-height: 5rem;" />
+            <h3 class="mt-2">Login</h3>
+        </div>
 
+        <EditForm Model="@userModel" OnValidSubmit="Authenticate">
+            <DataAnnotationsValidator />
+
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <InputText @bind-Value="userModel.UserName" class="form-control" placeholder="Enter username" />
+                <ValidationMessage For="() => userModel.UserName" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <InputText @bind-Value="userModel.Password" type="password" class="form-control" placeholder="Enter password" />
+                <ValidationMessage For="() => userModel.Password" class="text-danger" />
+            </div>
+
+            <div class="text-danger text-center">
+                @errorMessage <!-- Display any login errors -->
+            </div>
+
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
 
 @code {
+    // Ensure the model contains properties like UserName and Password
+    public DisplayUserModel userModel { get; set; } = new DisplayUserModel();
 
+    private string? errorMessage;
 
+    private async Task Authenticate()
+    {
+        
+    }
 }

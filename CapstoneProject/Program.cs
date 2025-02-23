@@ -1,5 +1,6 @@
 using CapstoneProject.Components;
 using DataAccessLibrary;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 
 namespace CapstoneProject
@@ -8,17 +9,14 @@ namespace CapstoneProject
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-            // Add services to the container.
-            builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
-            builder.Services.AddTransient<IProductData, ProductData>();
-            builder.Services.AddTransient<IUsersData, UsersData>();
-
-
-            // Register DatabaseHelper as a singleton or scoped service
-
+            var builder = WebApplication.CreateBuilder(args);     
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+            builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            builder.Services.AddTransient<IProductData, ProductData>();
+            builder.Services.AddTransient<IUserData, UserData>();
+
+
 
             var app = builder.Build();
 
@@ -35,7 +33,6 @@ namespace CapstoneProject
 
             app.UseStaticFiles();
             app.UseAntiforgery();
-
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 
