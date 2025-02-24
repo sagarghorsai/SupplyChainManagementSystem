@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nrwkaApE7EZdBkzMYduH76fP74ra/VQdpDL4Ph6QUhQ=",
+  "Hash": "KKsjRb3qC/xiLy8NuhqnyWZ63JaP7hqE8gXorjqNpuw=",
   "Source": "CapstoneProject",
   "BasePath": "_content/CapstoneProject",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\tailwind.css",
+      "SourceId": "CapstoneProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
+      "BasePath": "_content/CapstoneProject",
+      "RelativePath": "css/tailwind.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tailwind.css"
     },
     {
       "Identity": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\tailwind.css",
+      "PackagePath": "staticwebassets\\css\\tailwind.css"
+    },
+    {
       "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
