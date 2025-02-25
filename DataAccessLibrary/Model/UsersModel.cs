@@ -8,15 +8,15 @@ namespace DataAccessLibrary.Model
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int UserId { get; set; }
+        public int User_id { get; set; }
 
-        public string UserFirst { get; set; }
+        public string user_Name { get; set; }
 
-        public string UserLast { get; set; }
+        public string user_Last { get; set; }
 
-        public string UserName { get; set; }
+        public string user_First { get; set; }
 
-        public string UserPassword { get; set; }
+        public string user_Password { get; set; }
 
         public string Role { get; set; } = "customer";
 

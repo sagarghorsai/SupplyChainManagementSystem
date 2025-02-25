@@ -2,8 +2,12 @@
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
 
 @inject IUserData _db;
+@inject NavigationManager navigationManager;
 <h3>Login</h3>
 
 <div class="d-flex justify-content-center align-items-center vh-100">
@@ -13,19 +17,19 @@
             <h3 class="mt-2">Login</h3>
         </div>
 
-        <EditForm Model="@userModel" OnValidSubmit="Authenticate">
+        <EditForm Model="@loginUserModel" OnValidSubmit="Authenticate" FormName="loginForm">
             <DataAnnotationsValidator />
 
             <div class="mb-3">
                 <label class="form-label">Username</label>
-                <InputText @bind-Value="userModel.UserName" class="form-control" placeholder="Enter username" />
-                <ValidationMessage For="() => userModel.UserName" class="text-danger" />
+                <InputText @bind-Value="loginUserModel.UserName" class="form-control" placeholder="Enter username" />
+                <ValidationMessage For="() => loginUserModel.UserName" class="text-danger" />
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Password</label>
-                <InputText @bind-Value="userModel.Password" type="password" class="form-control" placeholder="Enter password" />
-                <ValidationMessage For="() => userModel.Password" class="text-danger" />
+                <InputText @bind-Value="loginUserModel.Password" type="password" class="form-control" placeholder="Enter password" />
+                <ValidationMessage For="() => loginUserModel.Password" class="text-danger" />
             </div>
 
             <div class="text-danger text-center">
@@ -41,12 +45,36 @@
 
 @code {
     // Ensure the model contains properties like UserName and Password
-    public DisplayUserModel userModel { get; set; } = new DisplayUserModel();
+    [CascadingParameter]
+    public HttpContext? HttpContext { get; set; }
+
+
+    [SupplyParameterFromForm(FormName = "loginForm")]
+    public LoginUserModel loginUserModel { get; set; } = new LoginUserModel();
 
     private string? errorMessage;
 
     private async Task Authenticate()
     {
-        
+        var userAccount = await _db.GetUserByUsername(loginUserModel.UserName);
+
+        if (userAccount == null || userAccount.user_Password != loginUserModel.Password)
+        {
+            errorMessage = "Invalid Username or Password";
+            return;
+        }
+
+        var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, userAccount.user_Name),
+        new Claim(ClaimTypes.Role, userAccount.Role)
+    };
+
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var principal = new ClaimsPrincipal(identity);
+
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+        navigationManager.NavigateTo("/");
     }
+
 }

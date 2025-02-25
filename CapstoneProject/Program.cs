@@ -12,9 +12,26 @@ namespace CapstoneProject
             var builder = WebApplication.CreateBuilder(args);     
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+
+            //User Authentication
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.Cookie.Name = "auth_token";
+                    options.LoginPath = "/login";
+                    options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
+                    options.AccessDeniedPath = "/access-denied";
+
+                });
+            builder.Services.AddAuthorization();
+            builder.Services.AddCascadingAuthenticationState();
+
+
             builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
             builder.Services.AddTransient<IProductData, ProductData>();
             builder.Services.AddTransient<IUserData, UserData>();
+
+
 
 
 
@@ -33,6 +50,11 @@ namespace CapstoneProject
 
             app.UseStaticFiles();
             app.UseAntiforgery();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+
+
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 

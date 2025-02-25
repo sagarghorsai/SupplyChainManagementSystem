@@ -7,13 +7,21 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="login" target="_blank">Login</a>
-
             <a href="profile" target="_blank">Profile</a>
 
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
 
             <a href="helpCenter" target="_blank">Help Center</a>
+
+            <AuthorizeView>
+               <NotAuthorized>
+                   <a href="/login">Login</a>
+               </NotAuthorized>
+                <Authorized>
+                    <a href="/logout">Logout</a>
+                </Authorized>
+            </AuthorizeView>
+
         </div>
 
         <article class="content px-4">
