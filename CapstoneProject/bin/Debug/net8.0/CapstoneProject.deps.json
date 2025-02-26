@@ -8,12 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "CapstoneProject/1.0.0": {
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3",
           "DataAccessLibrary": "1.0.0",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.11",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
         },
         "runtime": {
@@ -1278,21 +1275,6 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.11": {},
-      "Microsoft.EntityFrameworkCore.Design/8.0.11": {
-        "dependencies": {
-          "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.11",
-          "Microsoft.Extensions.DependencyModel": "8.0.2",
-          "Mono.TextTemplating": "2.3.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "8.0.11.0",
-            "fileVersion": "8.0.1124.52104"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.11": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.11",
@@ -1303,24 +1285,6 @@
             "assemblyVersion": "8.0.11.0",
             "fileVersion": "8.0.1124.52104"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.SqlServer/8.0.11": {
-        "dependencies": {
-          "Microsoft.Data.SqlClient": "5.1.6",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.11",
-          "System.Formats.Asn1": "8.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "8.0.11.0",
-            "fileVersion": "8.0.1124.52104"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/8.0.11": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "8.0.11"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -2649,33 +2613,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/8.0.11",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.11.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/8.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KxOvpbaKiUmbLvenr0T/4F1Vdm0Sq+iajLbesQK7/WKB/Dx+FQHCZ0f5jCXrVWK2QKF9eHzQ5JPA1L6hcb25FQ==",
-      "path": "microsoft.entityframeworkcore.design/8.0.11",
-      "hashPath": "microsoft.entityframeworkcore.design.8.0.11.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore.Relational/8.0.11": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-3TuuW3i5I4Ro0yoaHmi2MqEDGObOVuhLaMEnd/heaLB1fcvm4fu4PevmC4BOWnI0vo176AIlV5o4rEQciLoohw==",
       "path": "microsoft.entityframeworkcore.relational/8.0.11",
       "hashPath": "microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.SqlServer/8.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rYYo8RyteIfRns+GuCcPRf3J7jS8gu8AxUWmFejrGoHTTKINhylL27N+SkFwCjxK4mscokjhQ1zjjJoNQ9oijA==",
-      "path": "microsoft.entityframeworkcore.sqlserver/8.0.11",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.8.0.11.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/8.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9iUOj0npm2FxOkGIE3ktv0N0YU1oEhaMTJoDYuKS8dGNkWo1CPm7RjsoJABesKFk1lkCIfTE5SHXb45GIMjDnQ==",
-      "path": "microsoft.entityframeworkcore.tools/8.0.11",
-      "hashPath": "microsoft.entityframeworkcore.tools.8.0.11.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
