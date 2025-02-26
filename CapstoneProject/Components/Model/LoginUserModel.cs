@@ -10,7 +10,5 @@ namespace CapstoneProject.Components.Model
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please provide Password")]
         public string? Password { get; set; }
 
-
-
     }
 }
