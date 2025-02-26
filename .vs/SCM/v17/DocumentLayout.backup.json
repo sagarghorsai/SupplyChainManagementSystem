@@ -5,9 +5,12 @@
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,7 +72,10 @@
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,6 +138,7 @@
               "DocumentIndex": 1,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Layout\\NavMenu.razor",
@@ -141,6 +148,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Inventory.razor",
@@ -148,6 +157,9 @@
               "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Inventory.razor",
               "ViewState": "AgIAALcAAAAAAAAAAAAAALMAAAATAAAAAAAAAA==",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -159,7 +171,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 6,
 >>>>>>> Stashed changes
@@ -181,7 +197,10 @@
               "DocumentIndex": 9,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
               "Title": "Logout.razor",
@@ -198,6 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -215,7 +237,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 8,
 >>>>>>> Stashed changes
@@ -247,7 +273,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 4,
 >>>>>>> Stashed changes
@@ -268,7 +298,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 7,
 >>>>>>> Stashed changes
@@ -289,7 +323,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 12,
 >>>>>>> Stashed changes
@@ -309,6 +347,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "Title": "IProductData.cs",
@@ -341,6 +380,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
@@ -348,7 +389,11 @@
               "RelativeToolTip": "CapstoneProject\\Program.cs",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
 =======
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
 >>>>>>> Stashed changes
@@ -363,7 +408,10 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
               "DocumentIndex": 3,
@@ -393,6 +441,9 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -411,7 +462,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 14,
 >>>>>>> Stashed changes
@@ -432,7 +487,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 15,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 15,
 >>>>>>> Stashed changes
@@ -453,7 +512,11 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 13,
 >>>>>>> Stashed changes
@@ -474,6 +537,7 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 15,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Home.razor",
@@ -486,6 +550,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 11,
               "Title": "IProductData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\IProductData.cs",
@@ -496,6 +562,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T04:30:11.14Z",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
