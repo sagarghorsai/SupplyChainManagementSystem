@@ -3,8 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,14 +60,17 @@
       "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\model\\searchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\model\\searchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\iproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\model\\displayproductmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Model\\DisplayUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapstoneProject\\Components\\Model\\DisplayUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -78,7 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 11,
+=======
+          "SelectedChildIndex": 5,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -104,19 +128,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "CapstoneProject\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+=======
+              "Title": "Inventory.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Inventory.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Inventory.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Inventory.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Inventory.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T16:30:27.08Z",
+              "WhenOpened": "2025-02-26T19:07:04.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Layout\\MainLayout.razor",
@@ -130,6 +167,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+<<<<<<< Updated upstream
+=======
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Logout.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T16:23:53.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "AccessDenied.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\AccessDenied.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\AccessDenied.razor",
@@ -142,7 +195,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "ProductData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\ProductData.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\ProductData.cs",
@@ -166,7 +223,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "UsersData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\UsersData.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\UsersData.cs",
@@ -179,7 +240,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "UsersModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\Model\\UsersModel.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\Model\\UsersModel.cs",
@@ -192,7 +257,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "ProductModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\Model\\ProductModel.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\Model\\ProductModel.cs",
@@ -205,6 +274,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "IProductData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\IProductData.cs",
@@ -232,18 +302,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
               "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Program.cs",
               "RelativeToolTip": "CapstoneProject\\Program.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAmAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T03:57:39.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:44:36.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T16:30:27.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 10,
               "Title": "SearchModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Model\\SearchModel.cs",
@@ -257,7 +363,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
               "Title": "DeletedProductModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Model\\DeletedProductModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Model\\DeletedProductModel.cs",
@@ -270,7 +380,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 15,
+>>>>>>> Stashed changes
               "Title": "DisplayProductModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Model\\DisplayProductModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Model\\DisplayProductModel.cs",
@@ -283,7 +397,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "UpdateProductModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Model\\UpdateProductModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Model\\UpdateProductModel.cs",
@@ -296,6 +414,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 15,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Home.razor",
@@ -305,6 +424,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-22T19:44:36.159Z",
+=======
+              "DocumentIndex": 11,
+              "Title": "IProductData.cs",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\IProductData.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\IProductData.cs",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\IProductData.cs",
+              "RelativeToolTip": "DataAccessLibrary\\IProductData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T04:30:11.14Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]
