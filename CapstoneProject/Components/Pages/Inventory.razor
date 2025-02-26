@@ -1,35 +1,146 @@
 ﻿@page "/inventory"
-@attribute [StreamRendering]
+@using DataAccessLibrary
+@using DataAccessLibrary.Model
+@using CapstoneProject.Components.Model
+@inject IProductData _db
 
 <PageTitle>Inventory</PageTitle>
 
 <h1>Inventory</h1>
 
-<p>This component demonstrates showing data.</p>
+<div class="row mb-4">
+    <!-- Search Form -->
+    <div class="col-md-12">
+        <EditForm Model="@searchModel" OnValidSubmit="@SearchProducts" FormName="searchForm">
+            <div class="input-group">
+                <InputText @bind-Value="searchModel.SearchTerm" class="form-control" placeholder="Search products by name..." />
+                <button type="submit" class="btn btn-secondary">Search</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
 
-@if (forecasts == null)
+<div class="row">
+    <!-- Insert Form -->
+    <div class="col-md-6">
+        <h4>Insert New Product</h4>
+        <EditForm Model="@newProduct" OnValidSubmit="@InsertProduct" FormName="insertForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="Name" class="form-label">Product Name:</label>
+                <InputText id="Name" @bind-Value="newProduct.Name" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Name)" />
+            </div>
+
+            <div class="mb-3">
+                <label for="Description" class="form-label">Description:</label>
+                <InputText id="Description" @bind-Value="newProduct.Description" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Description)" />
+            </div>
+
+            <div class="mb-3">
+                <label for="UnitPrice" class="form-label">Unit Price:</label>
+                <InputNumber id="UnitPrice" @bind-Value="newProduct.Unit_price" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Unit_price)" />
+            </div>
+
+            <div class="mb-3">
+                <label for="QuantityAvailable" class="form-label">Quantity Available:</label>
+                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </EditForm>
+    </div>
+
+    <!-- Update Form -->
+    <div class="col-md-6">
+        <h4>Update Product</h4>
+        <EditForm Model="@updatedProduct" OnValidSubmit="@UpdateProduct" FormName="updateForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="UpdateProductId" class="form-label">Product ID:</label>
+                <InputNumber id="UpdateProductId" @bind-Value="updatedProduct.ProductId" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label for="UpdateName" class="form-label">Product Name:</label>
+                <InputText id="UpdateName" @bind-Value="updatedProduct.Name" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label for="UpdateDescription" class="form-label">Description:</label>
+                <InputText id="UpdateDescription" @bind-Value="updatedProduct.Description" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label for="UpdateUnitPrice" class="form-label">Unit Price:</label>
+                <InputNumber id="UpdateUnitPrice" @bind-Value="updatedProduct.Unit_price" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label for="UpdateQuantityAvailable" class="form-label">Quantity Available:</label>
+                <InputNumber id="UpdateQuantityAvailable" @bind-Value="updatedProduct.Quantity_available" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-warning">Update</button>
+        </EditForm>
+    </div>
+
+
+    <!-- Delete Form -->
+    <div class="col-md-6">
+        <h4>Delete Product</h4>
+        <EditForm Model="@deletedProduct" OnValidSubmit="@DeleteProduct" FormName="deleteForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="ProductId" class="form-label">Product ID:</label>
+                <InputNumber id="ProductId" @bind-Value="deletedProduct.ProductId" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </EditForm>
+    </div>
+</div>
+
+<h4 class="mt-4">Current Inventory</h4>
+
+@if (products is null)
 {
     <p><em>Loading...</em></p>
 }
+else if (!products.Any())
+{
+    <p>No products found.</p>
+}
 else
 {
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>ProductID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>UnitPrice</th>
+                <th>QuantityAvailable</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var p in products)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@p.Product_id</td>
+                    <td>@p.Name</td>
+                    <td>@p.Description</td>
+                    <td>@p.Unit_price</td>
+                    <td>@p.Quantity_available</td>
                 </tr>
             }
         </tbody>
@@ -37,30 +148,74 @@ else
 }
 
 @code {
-    // List inventory as a table with search bar, stock indicators, and update options
+    private List<ProductModel> products;
 
-    private WeatherForecast[]? forecasts;
+    [SupplyParameterFromForm(FormName = "updateForm")]
+    private UpdateProductModel updatedProduct { get; set; } = new UpdateProductModel();
+
+    [SupplyParameterFromForm(FormName = "searchForm")]
+    private SearchModel searchModel { get; set; } = new SearchModel();
+
+    [SupplyParameterFromForm(FormName = "insertForm")]
+    private DisplayProductModel newProduct { get; set; } = new();
+
+    [SupplyParameterFromForm(FormName = "deleteForm")]
+    private DeletedProductModel deletedProduct { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
-        // Simulate asynchronous loading to demonstrate streaming rendering
-        await Task.Delay(500);
-
-        var startDate = DateOnly.FromDateTime(DateTime.Now);
-        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = startDate.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = summaries[Random.Shared.Next(summaries.Length)]
-        }).ToArray();
+        await LoadProducts();
     }
 
-    private class WeatherForecast
+    private async Task LoadProducts()
     {
-        public DateOnly Date { get; set; }
-        public int TemperatureC { get; set; }
-        public string? Summary { get; set; }
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        products = await _db.GetProduct();
     }
+
+    private async Task InsertProduct()
+    {
+        ProductModel productModel = new ProductModel(
+            newProduct.Name,
+            newProduct.Description,
+            newProduct.Unit_price,
+            newProduct.Quantity_available
+        );
+
+        await _db.InsertProduct(productModel);
+        await LoadProducts();
+        newProduct = new DisplayProductModel();
+    }
+
+    private async Task DeleteProduct()
+    {
+        await _db.DeleteProduct(deletedProduct.ProductId);
+        await LoadProducts();
+        deletedProduct = new DeletedProductModel();
+    }
+
+    private async Task SearchProducts()
+    {
+        // Using the SearchProduct method added to your IProductData
+        products = await _db.SearchProduct(searchModel.SearchTerm);
+    }
+
+    private async Task UpdateProduct()
+    {
+        Console.WriteLine("Updating");
+
+        ProductModel productModel = new ProductModel(
+           updatedProduct.ProductId,  // Ensure ProductId is included
+           updatedProduct.Name,
+           updatedProduct.Description,
+           updatedProduct.Unit_price,
+           updatedProduct.Quantity_available
+        );
+
+        await _db.UpdateProduct(productModel);
+        await LoadProducts(); // Refresh inventory after update
+        updatedProduct = new UpdateProductModel(); // Reset form after submission
+    }
+
+
+    
 }

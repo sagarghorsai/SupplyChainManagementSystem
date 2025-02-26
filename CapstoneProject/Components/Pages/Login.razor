@@ -1,10 +1,81 @@
-﻿@layout Layout.LoginLayout
-@page "/login"
+﻿@page "/login"
+@using DataAccessLibrary
+@using DataAccessLibrary.Model
+@using CapstoneProject.Components.Model
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
 
-<PageTitle>Login</PageTitle>
-
+@inject IUserData _db;
+@inject NavigationManager navigationManager;
 <h3>Login</h3>
 
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4" style="width: 400px;">
+        <div class="text-center mb-3">
+            <img src="/images/avatar.png" alt="Avatar" class="rounded-circle" style="max-height: 5rem;" />
+            <h3 class="mt-2">Login</h3>
+        </div>
+
+        <EditForm Model="@loginUserModel" OnValidSubmit="Authenticate" FormName="loginForm">
+            <DataAnnotationsValidator />
+
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <InputText @bind-Value="loginUserModel.UserName" class="form-control" placeholder="Enter username" />
+                <ValidationMessage For="() => loginUserModel.UserName" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <InputText @bind-Value="loginUserModel.Password" type="password" class="form-control" placeholder="Enter password" />
+                <ValidationMessage For="() => loginUserModel.Password" class="text-danger" />
+            </div>
+
+            <div class="text-danger text-center">
+                @errorMessage <!-- Display any login errors -->
+            </div>
+
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
 @code {
-    // Allows users to long in either with email or google
+    // Ensure the model contains properties like UserName and Password
+    [CascadingParameter]
+    public HttpContext? HttpContext { get; set; }
+
+
+    [SupplyParameterFromForm(FormName = "loginForm")]
+    public LoginUserModel loginUserModel { get; set; } = new LoginUserModel();
+
+    private string? errorMessage;
+
+    private async Task Authenticate()
+    {
+        var userAccount = await _db.GetUserByUsername(loginUserModel.UserName);
+
+        if (userAccount == null || userAccount.user_Password != loginUserModel.Password)
+        {
+            errorMessage = "Invalid Username or Password";
+            return;
+        }
+
+        var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, userAccount.user_Name),
+        new Claim(ClaimTypes.Role, userAccount.Role)
+    };
+
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var principal = new ClaimsPrincipal(identity);
+
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+        navigationManager.NavigateTo("/");
+    }
+
+
 }

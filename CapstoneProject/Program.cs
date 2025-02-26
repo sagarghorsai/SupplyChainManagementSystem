@@ -1,4 +1,7 @@
 using CapstoneProject.Components;
+using DataAccessLibrary;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 
 namespace CapstoneProject
 {
@@ -6,13 +9,34 @@ namespace CapstoneProject
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
+            var builder = WebApplication.CreateBuilder(args);     
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
+            //User Authentication
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.Cookie.Name = "auth_token";
+                    options.LoginPath = "/login";
+                    options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
+                    options.AccessDeniedPath = "/access-denied";
+
+                });
+            builder.Services.AddAuthorization();
+            builder.Services.AddCascadingAuthenticationState();
+
+
+            builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            builder.Services.AddTransient<IProductData, ProductData>();
+            builder.Services.AddTransient<IUserData, UserData>();
+
+
+
+
+
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -26,6 +50,10 @@ namespace CapstoneProject
 
             app.UseStaticFiles();
             app.UseAntiforgery();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+
 
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();

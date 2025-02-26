@@ -1,0 +1,7 @@
+INSERT INTO Users (user_first, user_last, user_name, user_password, role)
+VALUES 
+    ('Admin', 'User', 'admin', 'password', 'employee'),
+    ('John', 'Doe', 'johndoe', 'password123', 'customer'),
+    ('Jane', 'Smith', 'janesmith', 'securepass', 'customer'),
+    ('Michael', 'Brown', 'mikebrown', 'mike1234', 'customer'),
+    ('Emily', 'Davis', 'emilyd', 'emily2024', 'customer');
