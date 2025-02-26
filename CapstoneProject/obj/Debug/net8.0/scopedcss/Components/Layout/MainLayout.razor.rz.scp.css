@@ -9,7 +9,6 @@ main[b-bz53ytfsht] {
 }
 
 .sidebar[b-bz53ytfsht] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
 .top-row[b-bz53ytfsht] {
@@ -29,6 +28,7 @@ main[b-bz53ytfsht] {
 
     .top-row[b-bz53ytfsht]  a:hover, .top-row[b-bz53ytfsht]  .btn-link:hover {
         text-decoration: underline;
+        color: blue;
     }
 
     .top-row[b-bz53ytfsht]  a:first-child {

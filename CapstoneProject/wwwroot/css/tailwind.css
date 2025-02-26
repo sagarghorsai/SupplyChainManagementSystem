@@ -106,6 +106,41 @@
   --tw-contain-style:  ;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("/Fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
+}
+
+@font-face {
+    font-family: "Roboto_Flex";
+    src: url("/Fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf")
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("/Fonts/Rubik/Rubik-VariableFont_wght.ttf")
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/Fonts/Inter/Inter-VariableFont_opsz,wght.ttf")
+}
+
+@font-face {
+    font-family: "Libre_Franklin";
+    src: url("/Fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf")
+}
+
+@font-face {
+    font-family: "Source_Sans_3";
+    src: url("/Fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf")
+}
+
+html,
+body {
+    font-family: "Libre_Franklin";
+}
+
 /*
 ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
@@ -307,26 +342,26 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+    font-family: roboto;
+    /* 1 */
+    font-feature-settings: inherit;
+    /* 1 */
+    font-variation-settings: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    font-weight: inherit;
+    /* 1 */
+    line-height: inherit;
+    /* 1 */
+    letter-spacing: inherit;
+    /* 1 */
+    color: inherit;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    padding: 0;
+    /* 3 */
 }
 
 /*
