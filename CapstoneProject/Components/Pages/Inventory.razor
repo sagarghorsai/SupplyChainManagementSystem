@@ -3,6 +3,7 @@
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
 @inject IProductData _db
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <PageTitle>Inventory</PageTitle>
 
@@ -169,8 +170,18 @@ else
 
     private async Task LoadProducts()
     {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (!user.Identity.IsAuthenticated)
+        {
+            Console.WriteLine("User is not authenticated.");
+            return;
+        }
+
         products = await _db.GetProduct();
     }
+
 
     private async Task InsertProduct()
     {
@@ -192,6 +203,7 @@ else
         await LoadProducts();
         deletedProduct = new DeletedProductModel();
     }
+
 
     private async Task SearchProducts()
     {
