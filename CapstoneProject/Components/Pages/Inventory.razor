@@ -2,8 +2,11 @@
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
+@using Microsoft.AspNetCore.Authorization
+
 @inject IProductData _db
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize(Roles="employee")]
 
 <PageTitle>Inventory</PageTitle>
 

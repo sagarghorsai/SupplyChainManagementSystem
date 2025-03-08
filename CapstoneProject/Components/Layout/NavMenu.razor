@@ -8,41 +8,44 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+        <div class="nav-item px-3" id="nav-home">
+            <NavLink class="nav-link" href="">
                 <span class="bi bi-home-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="inventory">
-                <span class="bi bi-inventory-fill-nav-menu" aria-hidden="true"></span> Inventory
-            </NavLink>
-        </div>
+        <AuthorizeView Roles="employee">
+            <div class="nav-item px-3" id="nav-inventory">
+                <NavLink class="nav-link" href="inventory">
+                    <span class="bi bi-inventory-fill-nav-menu" aria-hidden="true"></span> Inventory
+                </NavLink>
+            </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="orders">
-                <span class="bi bi-orders-fill-nav-menu" aria-hidden="true"></span> Orders
-            </NavLink>
-        </div>
+            <div class="nav-item px-3" id="nav-orders">
+                <NavLink class="nav-link" href="orders">
+                    <span class="bi bi-orders-fill-nav-menu" aria-hidden="true"></span> Orders
+                </NavLink>
+            </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="supplier">
-                <span class="bi bi-supplier-fill-nav-menu" aria-hidden="true"></span> Supplier
-            </NavLink>
-        </div>
+            <div class="nav-item px-3" id="nav-supplier">
+                <NavLink class="nav-link" href="supplier">
+                    <span class="bi bi-supplier-fill-nav-menu" aria-hidden="true"></span> Supplier
+                </NavLink>
+            </div>
+        </AuthorizeView>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="reports">
-                <span class="bi bi-report-fill-nav-menu" aria-hidden="true"></span> Reports
-            </NavLink>
-        </div>
+        <AuthorizeView Roles="customer">
+            <div class="nav-item px-3" id="nav-store">
+                <NavLink class="nav-link" href="store">
+                    <span class="bi bi-orders-fill-nav-menu" aria-hidden="true"></span> Orders
+                </NavLink>
+            </div>
+        </AuthorizeView>
 
-        <div class="nav-item px-3">
+        <div class="nav-item px-3" id="nav-settings">
             <NavLink class="nav-link" href="settings">
                 <span class="bi bi-settings-fill-nav-menu" aria-hidden="true"></span> Settings
             </NavLink>
         </div>
     </nav>
 </div>
-

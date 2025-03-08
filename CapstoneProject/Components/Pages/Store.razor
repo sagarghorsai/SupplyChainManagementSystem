@@ -1,0 +1,227 @@
+﻿@page "/store"
+@rendermode InteractiveServer
+
+@using DataAccessLibrary
+@using CapstoneProject.Components.Model // Keep this as is
+@using DataAccessLibrary.Model // Add this line
+
+@using CartItemDA = DataAccessLibrary.Model.CartItem // Alias CartItem from DataAccessLibrary
+@using CartItemCM = CapstoneProject.Components.Model.CartItem // Alias CartItem from CapstoneProject
+
+@using Microsoft.AspNetCore.Authorization
+@inject IProductData _db
+@inject IStoreData _sb
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize(Roles = "customer")]
+
+<h3>Store</h3>
+
+<div class="row mb-4">
+	<div class="col-md-6">
+		<input type="text" @bind="searchTerm" class="form-control" placeholder="Search products..." />
+		<button class="btn btn-secondary mt-2" @onclick="SearchProducts">Search</button>
+	</div>
+</div>
+
+@if (products == null)
+{
+	<p>Loading products...</p>
+}
+else if (!products.Any())
+{
+	<p>No products found.</p>
+}
+else
+{
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+				<th>Available</th>
+				<th>Quantity</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var product in products)
+			{
+				<tr>
+					<td>@product.Name</td>
+					<td>@product.Description</td>
+					<td>@product.UnitPrice</td>
+					<td>@product.QuantityAvailable</td>
+					<td>
+						<input type="number" min="1" max="@product.QuantityAvailable" @bind="product.QuantityToBuy" class="form-control" />
+					</td>
+					<td>
+						<button class="btn btn-primary" @onclick="() => AddToCart(product)">Add to Cart</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@if (cartItems.Any())
+{
+	<h4>Checkout</h4>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Quantity</th>
+				<th>Price</th>
+				<th>Total</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in cartItems)
+			{
+				<tr>
+					<td>@item.Name</td>
+					<td>@item.Quantity</td>
+					<td>@item.UnitPrice</td>
+					<td>@(item.Quantity * item.UnitPrice)</td>
+					<td>
+						<button class="btn btn-danger" @onclick="() => RemoveFromCart(item.ProductId)">Remove</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+	<h5>Total: @totalAmount</h5>
+	<button class="btn btn-success" @onclick="Checkout">Checkout</button>
+}
+
+@code {
+	private List<StoreModel> products;
+	List<CartItemDA> cartItems = new List<CartItemDA>(); // DataAccessLibrary.CartItem
+	private string searchTerm = "";
+	private decimal totalAmount;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await LoadProducts();
+		await LoadCart();
+	}
+
+	private async Task LoadProducts()
+	{
+		var allProducts = await _db.GetProduct();
+		products = allProducts.Select(p => new StoreModel
+			{
+				ProductId = p.Product_id,
+				Name = p.Name,
+				Description = p.Description,
+				UnitPrice = p.Unit_price,
+				QuantityAvailable = p.Quantity_available,
+				SupplierId = p.Supplier_Id, // Ensure this property is set
+				QuantityToBuy = 1
+			}).ToList();
+	}
+
+	private async Task SearchProducts()
+	{
+		var filteredProducts = await _db.SearchProduct(searchTerm);
+		products = filteredProducts.Select(p => new StoreModel
+			{
+				ProductId = p.Product_id,
+				Name = p.Name,
+				Description = p.Description,
+				UnitPrice = p.Unit_price,
+				QuantityAvailable = p.Quantity_available,
+				QuantityToBuy = 1
+			}).ToList();
+	}
+
+	private async Task LoadCart()
+	{
+		cartItems = await _sb.GetCartItems();
+		CalculateTotalAmount();
+	}
+
+	private async Task AddToCart(StoreModel product)
+	{
+		if (product.QuantityToBuy < 1 || product.QuantityToBuy > product.QuantityAvailable)
+		{
+			Console.WriteLine("Invalid quantity selected.");
+			return;
+		}
+
+		try
+		{
+			// Map StoreModel to ProductModel
+			var productModel = new ProductModel
+				{
+					Product_id = product.ProductId,
+					Name = product.Name,
+					Unit_price = product.UnitPrice,
+					Quantity_available = product.QuantityAvailable,
+					Supplier_Id = product.SupplierId
+				};
+
+			// Call AddToCart with ProductModel
+			await _sb.AddToCart(productModel, product.QuantityToBuy, product.SupplierId);
+
+			await LoadCart(); // Refresh cart after adding
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Error adding to cart: {ex.Message}");
+		}
+	}
+
+	private async Task RemoveFromCart(int productId)
+	{
+		await _sb.RemoveFromCart(productId);
+		await LoadCart(); // Refresh cart after removing
+	}
+
+	private void CalculateTotalAmount()
+	{
+		totalAmount = cartItems.Sum(item => item.Quantity * item.UnitPrice);
+	}
+
+	private async Task Checkout()
+	{
+		try
+		{
+			var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+			var username = authState.User.Identity.Name;
+
+			if (string.IsNullOrEmpty(username))
+			{
+				throw new Exception("User is not authenticated.");
+			}
+
+			// Get the user from the database using the correct column name 'user_name'
+			var user = await _sb.GetUserByUsername(username);
+			var userId = user?.User_id ?? 0; // Using 'user_id' instead of 'User_id'
+
+			if (userId == 0)
+			{
+				throw new Exception("User not found.");
+			}
+
+			// Use 'supplier_id' instead of 'SupplierId' for order supplier ID
+			var supplierId = cartItems.FirstOrDefault()?.supplier_id ?? 1; // Use correct column for supplier_id
+			Console.WriteLine(supplierId);
+			var order = await _sb.Checkout(userId, supplierId);
+
+			Console.WriteLine($"Checkout completed, order ID: {order.OrderId}"); // 'order_id' instead of 'OrderId'
+
+			// Clear the cart and reload products after checkout
+			cartItems.Clear();
+			await LoadProducts(); // Reload the product list after checkout
+			await LoadCart(); // Reload the cart in case the user decides to continue shopping
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Checkout error: {ex.Message}");
+		}
+	}
+}
