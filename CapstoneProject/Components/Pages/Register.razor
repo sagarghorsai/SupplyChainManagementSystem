@@ -3,14 +3,15 @@
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
 
+@rendermode InteractiveServer
 @inject IUserData _db;
 @inject NavigationManager navigationManager;
 
 <h3>Register</h3>
 
 <div class="d-flex justify-content-center align-items-center vh-100">
-    <div class="card shadow-lg p-4" style="width: 400px;">
-        <div class="text-center mb-3">
+    <div class="card p-4 shadow-lg" style="width: 400px;">
+        <div class="mb-3 text-center">
             <img src="/images/avatar.png" alt="Avatar" class="rounded-circle" style="max-height: 5rem;" />
             <h3 class="mt-2">Register</h3>
         </div>
@@ -91,7 +92,7 @@
             // Ensure Blazor's circuit is still active
             if (navigationManager != null)
             {
-                navigationManager.NavigateTo("/Home");
+                navigationManager.NavigateTo("/");
             }
             else
             {
