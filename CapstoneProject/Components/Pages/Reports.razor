@@ -1,5 +1,7 @@
 ﻿@page "/reports"
+@using Microsoft.AspNetCore.Authorization
 
+@attribute [Authorize(Roles = "employee")]
 <PageTitle>Reports</PageTitle>
 
 <h3>Reports</h3>

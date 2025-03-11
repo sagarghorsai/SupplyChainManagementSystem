@@ -65,8 +65,5 @@ namespace DataAccessLibrary
             await _db.SaveData(sql, product);
         }
 
-
-
-
     }
 }

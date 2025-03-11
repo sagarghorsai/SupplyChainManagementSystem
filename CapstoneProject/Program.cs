@@ -30,8 +30,8 @@ namespace CapstoneProject
             builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
             builder.Services.AddTransient<IProductData, ProductData>();
             builder.Services.AddTransient<IUserData, UserData>();
-
-
+            builder.Services.AddTransient<IStoreData, StoreData>();
+			builder.Services.AddTransient<ISupplierData, SupplierData>();
 
 
 
@@ -49,16 +49,18 @@ namespace CapstoneProject
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
-            app.UseAntiforgery();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseAntiforgery();
 
 
 
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 
+
             app.Run();
+
         }
     }
 }

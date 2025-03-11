@@ -1,5 +1,9 @@
 ﻿@page "/orders"
 
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize(Roles = "employee")]
+
 <PageTitle>Orders</PageTitle>
 
 <h3>Orders</h3>

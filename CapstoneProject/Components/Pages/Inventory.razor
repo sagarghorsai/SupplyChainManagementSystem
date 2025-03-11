@@ -2,7 +2,11 @@
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
+@using Microsoft.AspNetCore.Authorization
+
 @inject IProductData _db
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [Authorize(Roles="employee")]
 
 <PageTitle>Inventory</PageTitle>
 
@@ -169,8 +173,18 @@ else
 
     private async Task LoadProducts()
     {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (!user.Identity.IsAuthenticated)
+        {
+            Console.WriteLine("User is not authenticated.");
+            return;
+        }
+
         products = await _db.GetProduct();
     }
+
 
     private async Task InsertProduct()
     {
@@ -192,6 +206,7 @@ else
         await LoadProducts();
         deletedProduct = new DeletedProductModel();
     }
+
 
     private async Task SearchProducts()
     {

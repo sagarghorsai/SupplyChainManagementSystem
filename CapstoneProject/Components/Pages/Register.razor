@@ -54,16 +54,16 @@
 </div>
 
 @code {
-    // Ensure the model contains properties like user_First, user_Last, user_Name, user_Password
     [SupplyParameterFromForm(FormName = "registerForm")]
-    public RegisterUserModel registerUserModel { get; set; } = new RegisterUserModel();
-
+    private RegisterUserModel registerUserModel { get; set; } = new RegisterUserModel();
     private string? errorMessage;
 
     private async Task UserRegister()
     {
         try
         {
+            Console.WriteLine("Starting User Registration...");
+
             // Check if username already exists
             var existingUser = await _db.GetUserByUsername(registerUserModel.user_Name);
             if (existingUser != null)
@@ -72,27 +72,36 @@
                 return;
             }
 
-            // Map and set up the new user
+            // Create a new user model
             var newUser = new UsersModel
                 {
                     user_First = registerUserModel.user_First,
                     user_Last = registerUserModel.user_Last,
                     user_Name = registerUserModel.user_Name,
-                    user_Password = registerUserModel.user_Password, // This will be hashed in the data layer
+                    user_Password = registerUserModel.user_Password, // Hashing should be done in the data layer
                     Role = "customer",
                     CreatedAt = DateTime.Now
                 };
 
+            // Save user in database
             await _db.RegisterUser(newUser);
 
-            // After successful registration, navigate to login page.
-            navigationManager.NavigateTo("/login");
+            Console.WriteLine("User successfully registered!");
+
+            // Ensure Blazor's circuit is still active
+            if (navigationManager != null)
+            {
+                navigationManager.NavigateTo("/Home");
+            }
+            else
+            {
+                Console.WriteLine("Cant go back home");
+            }
         }
         catch (Exception ex)
         {
-            // Log the error or set an error message for display
+            Console.WriteLine($"Error during registration: {ex}");
             errorMessage = $"Registration failed: {ex.Message}";
         }
     }
-
 }
