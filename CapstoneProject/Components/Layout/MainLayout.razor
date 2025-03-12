@@ -1,5 +1,96 @@
 ﻿@inherits LayoutComponentBase
 
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudPopoverProvider />
+
+<!-- MudBlazor -->
+<MudLayout>
+    <!-- App Bar -->
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3">Capstone Project</MudText>
+        <MudSpacer />
+       <!-- <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" /> -->
+
+        <!-- Menu Button -->
+        <MudMenu Dense
+                  Variant="Variant.Text"
+                  Size="Size.Medium"
+                  Color="Color.Inherit"
+                  Icon="@Icons.Material.TwoTone.MoreVert">
+
+             <!-- Settings Button -->
+             <MudMenu StartIcon="@Icons.Material.TwoTone.Settings"
+                      Label="Settings">
+                 <MudMenuItem Icon="@Icons.Material.TwoTone.DarkMode"
+                              IconColor="Color.Secondary"
+                              Label="Dark Theme" />
+             </MudMenu>
+             <MudDivider />
+
+             <!-- Login/Logout Button -->
+             <AuthorizeView>
+                 <NotAuthorized>
+                     <MudMenuItem Href="/login"
+                                      ForceLoad
+                                  Icon="@Icons.Material.TwoTone.Login"
+                                  IconColor="Color.Primary"
+                                  Label="Login" />
+                 </NotAuthorized>
+                 <Authorized>
+                     <MudMenuItem Href="/logout"
+                                      ForceLoad
+                                  Icon="@Icons.Material.TwoTone.Logout"
+                                  IconColor="Color.Primary"
+                                  Label="Logout" />
+                 </Authorized>
+             </AuthorizeView>
+              @*
+             <AuthorizeView>
+                 <NotAuthorized>
+                     <a href="/login">Login</a>
+                 </NotAuthorized>
+                 <Authorized>
+                     <a href="/logout">Logout</a>
+                 </Authorized>
+            </AuthorizeView>*@
+         </MudMenu>
+
+
+
+         <a href="/profile">Profile</a>
+
+         <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+
+         <a href="helpCenter">Help Center</a>
+
+     </MudAppBar>
+     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+         <NavMenu />
+     </MudDrawer>
+     <MudMainContent>
+         @Body
+    </MudMainContent>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+</MudLayout>
+
+@code {
+    bool _drawerOpen = true;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}
+@*
+<!-- HTML -->
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -33,4 +124,4 @@
     An unhandled error has occurred.
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
-</div>
+</div>*@

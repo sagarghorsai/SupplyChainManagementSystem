@@ -1,6 +1,8 @@
 using CapstoneProject.Components;
 using DataAccessLibrary;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http.Connections;
+using MudBlazor.Services;
 
 
 namespace CapstoneProject
@@ -9,9 +11,11 @@ namespace CapstoneProject
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);     
+            var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+
+            builder.Services.AddMudServices();
 
             //User Authentication
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -31,12 +35,9 @@ namespace CapstoneProject
             builder.Services.AddTransient<IProductData, ProductData>();
             builder.Services.AddTransient<IUserData, UserData>();
             builder.Services.AddTransient<IStoreData, StoreData>();
-			builder.Services.AddTransient<ISupplierData, SupplierData>();
-
-
+            builder.Services.AddTransient<ISupplierData, SupplierData>();
 
             var app = builder.Build();
-
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -53,14 +54,10 @@ namespace CapstoneProject
             app.UseAuthorization();
             app.UseAntiforgery();
 
-
-
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 
-
             app.Run();
-
         }
     }
 }

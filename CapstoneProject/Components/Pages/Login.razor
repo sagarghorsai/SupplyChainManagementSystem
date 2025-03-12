@@ -12,8 +12,8 @@
 <h3>Login</h3>
 
 <div class="d-flex justify-content-center align-items-center vh-100">
-    <div class="card shadow-lg p-4" style="width: 400px;">
-        <div class="text-center mb-3">
+    <div class="card p-4 shadow-lg" style="width: 400px;">
+        <div class="mb-3 text-center">
             <img src="/images/avatar.png" alt="Avatar" class="rounded-circle" style="max-height: 5rem;" />
             <h3 class="mt-2">Login</h3>
         </div>
@@ -44,7 +44,7 @@
         </EditForm>
 
         <!-- Register Link Styled as a Button -->
-        <div class="d-grid gap-2 mt-3">
+        <div class="d-grid mt-3 gap-2">
             <a href="/register" class="btn btn-secondary">Go to Register Page</a>
         </div>
 
@@ -80,7 +80,7 @@
         var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
         var principal = new ClaimsPrincipal(identity);
 
-        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal);
         navigationManager.NavigateTo("/");
     }
 
