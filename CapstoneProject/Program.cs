@@ -32,6 +32,7 @@ namespace CapstoneProject
             builder.Services.AddTransient<IUserData, UserData>();
             builder.Services.AddTransient<IStoreData, StoreData>();
 			builder.Services.AddTransient<ISupplierData, SupplierData>();
+            builder.Services.AddTransient<IShipmentData, ShipmentData>();
 
 
 

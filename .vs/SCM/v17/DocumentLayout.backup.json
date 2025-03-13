@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\orders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\orders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\storedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\storedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\model\\shipmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\model\\shipmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\supplier.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\supplierdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\dataaccesslibrary\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC5F1A-0444-4EFA-B474-38EBDEDB77E7}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{710980A2-CB82-4AD9-9BB3-A91D8B0603AF}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\dosti\\onedrive\\desktop\\supplychainmanagementsystem\\capstoneproject\\components\\layout\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +70,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T01:34:39.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShipmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\Model\\ShipmentModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\Model\\ShipmentModel.cs",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\Model\\ShipmentModel.cs",
+              "RelativeToolTip": "DataAccessLibrary\\Model\\ShipmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:29:08.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreData.cs",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\StoreData.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\StoreData.cs",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\StoreData.cs",
+              "RelativeToolTip": "DataAccessLibrary\\StoreData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:26:52.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.razor",
+              "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Orders.razor",
+              "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Orders.razor",
+              "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Orders.razor",
+              "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Orders.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T01:25:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "OrderModel.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\Model\\OrderModel.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\Model\\OrderModel.cs",
@@ -62,25 +130,24 @@
               "RelativeToolTip": "DataAccessLibrary\\Model\\OrderModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:41:29.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T19:41:29.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Store.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Store.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Store.razor",
               "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Store.razor",
               "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Store.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-08T19:40:15.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IUserData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\IUserData.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\IUserData.cs",
@@ -88,38 +155,37 @@
               "RelativeToolTip": "DataAccessLibrary\\IUserData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:39:34.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T19:39:34.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
               "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Program.cs",
               "RelativeToolTip": "CapstoneProject\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwB4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T19:38:28.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Inventory.razor",
               "ToolTip": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Inventory.razor",
               "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAALoAAAAAAAAAAAAwwNgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAwwNcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-08T19:38:00.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Supplier.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Pages\\Supplier.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Pages\\Supplier.razor",
@@ -127,12 +193,11 @@
               "RelativeToolTip": "CapstoneProject\\Components\\Pages\\Supplier.razor",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T19:35:30.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T19:35:30.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "SupplierData.cs",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\DataAccessLibrary\\SupplierData.cs",
               "RelativeDocumentMoniker": "DataAccessLibrary\\SupplierData.cs",
@@ -140,12 +205,11 @@
               "RelativeToolTip": "DataAccessLibrary\\SupplierData.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAIwDEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:31:40.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T19:31:40.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "LoginLayout.razor",
               "DocumentMoniker": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\Components\\Layout\\LoginLayout.razor",
               "RelativeDocumentMoniker": "CapstoneProject\\Components\\Layout\\LoginLayout.razor",
@@ -153,8 +217,7 @@
               "RelativeToolTip": "CapstoneProject\\Components\\Layout\\LoginLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T23:10:10.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T23:10:10.939Z"
             }
           ]
         }
