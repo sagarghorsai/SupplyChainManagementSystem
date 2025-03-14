@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\Icons\home.png" />
+    <None Include="wwwroot\js\landing.js" />
   </ItemGroup>
 
   <ItemGroup>

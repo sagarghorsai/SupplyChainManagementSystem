@@ -781,12 +781,232 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\kit.css",
+      "PackagePath": "staticwebassets\\css\\kit.css"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\landingpage.css",
+      "PackagePath": "staticwebassets\\css\\landingpage.css"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
       "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\tailwind.css",
       "PackagePath": "staticwebassets\\css\\tailwind.css"
     },
     {
       "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\04f14af5199093cdd29a89eb295febf5_104f14af5199093cdd29a89eb295febf5.jpeg",
+      "PackagePath": "staticwebassets\\images\\04f14af5199093cdd29a89eb295febf5_104f14af5199093cdd29a89eb295febf5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\FredHeadShot.jpg",
+      "PackagePath": "staticwebassets\\images\\FredHeadShot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-500x243.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-500x243.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-800x389.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-800x389.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-500x320.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-500x320.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-800x512.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-800x512.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot2.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-500x317.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-500x317.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-800x507.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-800x507.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5.png",
+      "PackagePath": "staticwebassets\\images\\Metric-screenshot5.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-500x200.png",
+      "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-500x200.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-800x320.png",
+      "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-800x320.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2.png",
+      "PackagePath": "staticwebassets\\images\\analytics-graphic2.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square-p-130x130q80.jpeg",
+      "PackagePath": "staticwebassets\\images\\bryant-square-p-130x130q80.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square.jpg",
+      "PackagePath": "staticwebassets\\images\\bryant-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_chartboost-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_chartboost.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_johnson_and_johnson-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_johnson_and_johnson.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_mammoth-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_mammoth.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_neutrogena-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_neutrogena.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_ouya-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_ouya.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla-p-130x130q80.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_tesla-p-130x130q80.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla.png",
+      "PackagePath": "staticwebassets\\images\\client_logo_tesla.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\email-icon-white.svg",
+      "PackagePath": "staticwebassets\\images\\email-icon-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\facebook-icon.svg",
+      "PackagePath": "staticwebassets\\images\\facebook-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-bar-chart-4-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-bar-chart-4-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-control-panel-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-control-panel-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-download-13-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-download-13-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-laptop-2-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-laptop-2-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-save-9-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-save-9-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-sitemap-7-icon.svg",
+      "PackagePath": "staticwebassets\\images\\iconmonstr-sitemap-7-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\linkdin-icon-white.svg",
+      "PackagePath": "staticwebassets\\images\\linkdin-icon-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Fastcompany.svg",
+      "PackagePath": "staticwebassets\\images\\logo_Fastcompany.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Forbes.svg",
+      "PackagePath": "staticwebassets\\images\\logo_Forbes.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Wired.svg",
+      "PackagePath": "staticwebassets\\images\\logo_Wired.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_techcrunch.svg",
+      "PackagePath": "staticwebassets\\images\\logo_techcrunch.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_zdnet.svg",
+      "PackagePath": "staticwebassets\\images\\logo_zdnet.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square-p-130x130q80.jpeg",
+      "PackagePath": "staticwebassets\\images\\sergie-square-p-130x130q80.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square.jpg",
+      "PackagePath": "staticwebassets\\images\\sergie-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\twitter-icon.svg",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\webclip.png",
+      "PackagePath": "staticwebassets\\images\\webclip.png"
+    },
+    {
+      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\js\\landing.js",
+      "PackagePath": "staticwebassets\\js\\landing.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CapstoneProject.Microsoft.AspNetCore.StaticWebAssets.props",
