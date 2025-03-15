@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/tailwind.css"/>
+    <link rel="stylesheet" href="css/tailwind.css" />
     <link rel="stylesheet" href="CapstoneProject.styles.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
@@ -16,7 +18,7 @@
 </head>
 
 <body class="font-mono">
-    <Routes @rendermode="RenderModeForPage"/>
+    <Routes @rendermode="@IsServerSide()" />
     <script src="_framework/blazor.web.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
 
@@ -25,7 +27,25 @@
 </html>
 
 
-@code{
+@code {
+    private bool isAuthenticated;
+
+    private IComponentRenderMode? IsServerSide()
+    {
+        // If user is authorized, return true
+
+        var authState = AuthenticationStateProvider.GetAuthenticationStateAsync().Result;
+        var user = authState.User;
+
+        // Check if the user is authenticated
+        isAuthenticated = user?.Identity?.IsAuthenticated ?? false;
+
+        if (isAuthenticated)
+            return RenderModeForPage;
+        else
+            return null;
+    }
+
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
 
