@@ -1,4 +1,5 @@
 ﻿@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager navigationManager;
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +30,23 @@
 
 @code {
     private bool isAuthenticated;
+    public string _currentPage = "";
+
+    // Set the current page to the landing page
+    /*protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        if (!isAuthenticated)
+            _currentPage = "/landingPage";
+    }*/
+
+    // Get the current page based on its href
+    void onCurrentPage()
+    {
+        var uri = new Uri(navigationManager.Uri);
+        _currentPage = uri.AbsolutePath;
+    }
 
     private IComponentRenderMode? IsServerSide()
     {
@@ -40,7 +58,8 @@
         // Check if the user is authenticated
         isAuthenticated = user?.Identity?.IsAuthenticated ?? false;
 
-        if (isAuthenticated)
+        // If the user is authenticated and the current page is not on the Landing Page, apply rendermode
+        if (isAuthenticated && !_currentPage.Contains("/#") && !_currentPage.Contains("/logout"))
             return RenderModeForPage;
         else
             return null;

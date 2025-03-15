@@ -1,0 +1,91 @@
+﻿@page "/supplier"
+@using DataAccessLibrary
+@using CapstoneProject.Components.Model
+@using DataAccessLibrary.Model
+@using Microsoft.AspNetCore.Authorization
+@inject ISupplierData _db
+@attribute [Authorize(Roles = "employee")]
+
+<PageTitle>Supplier</PageTitle>
+
+@if (_suppliers == null)
+{
+    <p>Loading suppliers...</p>
+}
+else if (!_suppliers.Any())
+{
+    <p>No suppliers found.</p>
+}
+else
+{
+    @* <table class="table-striped table">
+            <thead>
+                <tr>
+                    <th>Supplier Name</th>
+                    <th>Contact Person</th>
+                    <th>Phone Number</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var supplier in suppliers)
+            {
+                    <tr>
+                        <td>@supplier.Name</td>
+                        <td>@supplier.Contact_Person</td>
+                        <td>@supplier.Phone_Number</td>
+                        <td>@supplier.Address</td>
+                    </tr>
+            }
+            </tbody>
+        </table> *@
+
+    <MudDataGrid T="SupplierModel" MultiSelection="true" Items="@_suppliers"
+                 Hideable="true">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">Suppliers</MudText>
+            <MudSpacer />
+            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <Columns>
+            <SelectColumn T="SupplierModel" />
+            <PropertyColumn Property="x => x.Name" SortBy="@_sortBy"/>
+            <PropertyColumn Property="x => x.Contact_Person" Title="Contact Person" />
+            <PropertyColumn Property="x => x.Phone_Number" Title="Phone Person" />
+            <PropertyColumn Property="x => x.Address" />
+        </Columns>
+        <PagerContent>
+            <MudDataGridPager T="SupplierModel" />
+        </PagerContent>
+    </MudDataGrid>
+
+    <div class="d-flex mt-4 flex-wrap">
+        <MudSwitch @bind-Value="@_sortNameByLength" Color="Color.Primary">Sort Name Column By Length</MudSwitch>
+    </div>
+}
+
+@code {
+    private IEnumerable<SupplierModel> _suppliers = new List<SupplierModel>();
+
+    private string _searchString = "";
+    private bool _sortNameByLength;
+
+    // This method will be called when the page is initialized
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch the suppliers without recent order data
+        _suppliers = await _db.GetSuppliers();
+
+        // Trigger the low stock notification process
+        await _db.NotifySuppliersAboutLowStock();
+    }
+
+    private Func<SupplierModel, object> _sortBy => x =>
+    {
+        if (_sortNameByLength)
+            return x.Name.Length;
+        else
+            return x.Name;
+    };
+}

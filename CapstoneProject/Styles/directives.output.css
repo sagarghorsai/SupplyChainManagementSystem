@@ -626,6 +626,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .block{
   display: block;
 }
@@ -660,6 +664,10 @@ video {
 
 .resize{
   resize: both;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .gap-2{

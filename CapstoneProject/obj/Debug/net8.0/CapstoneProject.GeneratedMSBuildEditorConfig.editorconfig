@@ -41,12 +41,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/AccessDenied.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2Nlc3NEZW5pZWQucmF6b3I=
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Authentication/AccessDenied.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoZW50aWNhdGlvblxBY2Nlc3NEZW5pZWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Authentication/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoZW50aWNhdGlvblxFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Authentication/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoZW50aWNhdGlvblxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Authentication/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoZW50aWNhdGlvblxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Authentication/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoZW50aWNhdGlvblxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Customer/Store.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lclxTdG9yZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Employee/Inventory.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZVxJbnZlbnRvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Employee/Orders.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZVxPcmRlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Employee/Reports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZVxSZXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Employee/Supplier.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZVxTdXBwbGllci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/HelpCenter.razor]
@@ -57,44 +89,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Inventory.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRvcnkucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Logout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Orders.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmRlcnMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3Rlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Reports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZXBvcnRzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Settings.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXR0aW5ncy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Store.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Pages/Supplier.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdXBwbGllci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brois/Desktop/Desktop/Work/Projects/SupplyChainManagementSystem/CapstoneProject/Components/Routes.razor]

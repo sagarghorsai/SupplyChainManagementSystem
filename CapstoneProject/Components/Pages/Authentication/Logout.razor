@@ -2,6 +2,7 @@
 @using Microsoft.AspNetCore.Authentication;
 
 @inject NavigationManager navigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <div class="d-flex flex-column justify-content-center align-items-center vh-100">
     <h1 class="display-4 text-success">Logged Out</h1>
@@ -13,6 +14,8 @@
     [CascadingParameter]
     public HttpContext HttpContext{ get; set; }
 
+    private string userName;
+
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
@@ -22,5 +25,14 @@
             navigationManager.NavigateTo("/logout", true);
 
         }
+
+        // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        // var user = authState.User;
+
+        // if (user.Identity?.IsAuthenticated ?? false)
+        // {
+        //     await HttpContext.SignOutAsync();
+        //     navigationManager.NavigateTo("/logout", true);
+        // }
     }
 }
