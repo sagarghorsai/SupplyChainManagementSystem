@@ -1,6 +1,5 @@
 ﻿@page "/logout"
 @using Microsoft.AspNetCore.Authentication;
-
 @inject NavigationManager navigationManager
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
@@ -12,28 +11,49 @@
 
 @code {
     [CascadingParameter]
-    public HttpContext HttpContext{ get; set; }
-
-    private string userName;
+    public HttpContext? HttpContext { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        
-        if(HttpContext.User.Identity.IsAuthenticated)
+
+        try
         {
-            await HttpContext.SignOutAsync();
-            navigationManager.NavigateTo("/logout", true);
+            // Check if HttpContext is available (static rendering)
+            if (HttpContext != null)
+            {
+                if (HttpContext.User.Identity?.IsAuthenticated == true)
+                {
+                    await HttpContext.SignOutAsync();
+                }
+            }
+            else
+            {
+                // We're in interactive mode, use AuthenticationStateProvider
+                var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                var user = authState.User;
 
+                if (user.Identity?.IsAuthenticated == true)
+                {
+                    // If using a custom AuthenticationStateProvider, update it here
+                    if (AuthenticationStateProvider is IHostEnvironmentAuthenticationStateProvider authProvider)
+                    {
+                        authProvider.SetAuthenticationState(Task.FromResult(
+                            new AuthenticationState(new System.Security.Claims.ClaimsPrincipal())));
+                    }
+                }
+            }
+
+            // Only redirect if we came from somewhere else to avoid loops
+            if (!navigationManager.Uri.EndsWith("/logout", StringComparison.OrdinalIgnoreCase))
+            {
+                // Force reload to ensure the authentication state is properly cleared
+                navigationManager.NavigateTo("/logout", true);
+            }
         }
-
-        // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        // var user = authState.User;
-
-        // if (user.Identity?.IsAuthenticated ?? false)
-        // {
-        //     await HttpContext.SignOutAsync();
-        //     navigationManager.NavigateTo("/logout", true);
-        // }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
 }
