@@ -3,16 +3,17 @@
 @using DataAccessLibrary.Model
 @using CapstoneProject.Components.Model
 @using Microsoft.AspNetCore.Authorization
+@using System.Threading
 
 @inject IProductData _db
 @inject AuthenticationStateProvider AuthenticationStateProvider
-@attribute [Authorize(Roles="employee")]
+@attribute [Authorize(Roles = "employee")]
 
 <PageTitle>Inventory</PageTitle>
-
+@*
 <h1>Inventory</h1>
 
-<div class="row mb-4">
+ <div class="row mb-4">
     <!-- Search Form -->
     <div class="col-md-12">
         <EditForm Model="@searchModel" OnValidSubmit="@SearchProducts" FormName="searchForm">
@@ -116,7 +117,9 @@
 
 <h4 class="mt-4">Current Inventory</h4>
 
-@if (products is null)
+
+
+    @if (products is null)
 {
     <p><em>Loading...</em></p>
 }
@@ -126,7 +129,7 @@ else if (!products.Any())
 }
 else
 {
-    <table class="table table-striped">
+    <table class="table-striped table">
         <thead>
             <tr>
                 <th>ProductID</th>
@@ -149,9 +152,162 @@ else
             }
         </tbody>
     </table>
+} *@
+
+@*-----------------------------------------------------------------------------------------------------------*@
+@*MudBlazor Inventory*@
+
+<!-- MudBlazor Inventory Page -->
+<MudGrid Style="padding: 16px">
+    <!-- Insert Product -->
+    <MudItem xs="12" sm="6" md="4">
+
+        <!-- Test for Validation for insert product -->
+        @*<EditForm Model="@newProduct" OnValidSubmit="@InsertProduct" FormName="deleteForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <MudText Typo="Typo.h6">Insert New Product</MudText>
+
+            <MudTextField @bind-Value="ipName" Label="Product Name" Variant="Variant.Outlined">
+                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Name" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Name)" />
+            </MudTextField>
+            <MudTextField @bind-Value="ipDescription" Label="Description" Variant="Variant.Outlined">
+                <InputNumber id="Description" @bind-Value="newProduct.Description" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Description)" />
+            </MudTextField>
+            <MudTextField @bind-Value="ipUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined">
+                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
+            </MudTextField>
+            <MudTextField @bind-Value="ipQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined">
+                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
+                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
+            </MudTextField>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Insert</MudButton>
+
+           
+        </EditForm>*@
+
+        <MudText Typo="Typo.h6">Insert New Product</MudText>
+
+        <MudTextField @bind-Value="ipName" Label="Product Name" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="ipDescription" Label="Description" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="ipUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="ipQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined"></MudTextField>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Insert</MudButton>
+    </MudItem>
+
+    <!-- Update Product -->
+    <MudItem xs="12" sm="6" md="4">
+        <EditForm Model="@updatedProduct" OnValidSubmit="@UpdateProduct" FormName="deleteForm">
+            <MudText Typo="Typo.h6"> Update Product </MudText>
+            <MudTextField @bind-Value="upID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
+            <MudTextField @bind-Value="upName" Label="Product Name" Variant="Variant.Outlined"></MudTextField>
+            <MudTextField @bind-Value="upDescription" Label="Description" Variant="Variant.Outlined"></MudTextField>
+            <MudTextField @bind-Value="upUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined"></MudTextField>
+            <MudTextField @bind-Value="upQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined"></MudTextField>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Update</MudButton>
+        </EditForm>
+    </MudItem>
+
+    <!-- Delete Product -->
+    <MudItem xs="12" sm="6" md="4">
+        <EditForm Model="@deletedProduct" OnValidSubmit="@DeleteProduct" FormName="deleteForm">
+            <MudText Typo="Typo.h6"> Delete Product </MudText>
+            <MudTextField @bind-Value="dpID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
+            <MudButton Variant="Variant.Filled" Color="Color.Secondary" Style="margin:5px">Delete</MudButton>
+        </EditForm>
+    </MudItem>
+</MudGrid>
+
+@if (_products is null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!_products.Any())
+{
+    <p>No products found.</p>
+}
+else
+{
+    <MudDataGrid T="ProductModel" MultiSelection="true" Items="@_products" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
+                 Hideable="true">
+
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">Inventory</MudText>
+            <MudSpacer />
+            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+
+        <!-- Inventory List -->
+        <Columns>
+            <SelectColumn T="ProductModel" />
+            <PropertyColumn Property="x => x.Product_id" Title="Product ID" />
+            <PropertyColumn Property="x => x.Name" @SortBy="sortBy" />
+            <PropertyColumn Property="x => x.Description" />
+            <PropertyColumn Property="x => x.Unit_price" Title="Unit Price" />
+            <PropertyColumn Property="x => x.Quantity_available" Title="Quantity" />
+        </Columns>
+        <PagerContent>
+            <MudDataGridPager T="ProductModel" />
+        </PagerContent>
+
+    </MudDataGrid>
 }
 
 @code {
+    // Mudblazor Additions
+    private IEnumerable<ProductModel> _products = new List<ProductModel>();
+
+    /* Product Model objects for individual search bars
+     * ip = Insert Product, up = Update Product, dp = Delete Product  */
+    private string ipName = "", ipDescription = "", ipUnitPrice = "", ipQuantityAvailable = "",
+                upID = "", upName = "", upDescription = "", upUnitPrice = "", upQuantityAvailable = "",
+                dpID = "";
+
+    /*public decimal ipUnitPrice { get; set; }
+    public decimal ipQuantityAvailable { get; set; }*/
+
+    private string _searchString = "";
+    private bool _sortNameByLength;
+
+    /*private async Task<IEnumerable<ProductModel>> Search(string value, CancellationToken token)
+    {
+        return await httpClient.GetFromJsonAsync<List<ProductModel>>(value/*$"webapi/periodictable/{value}", token);
+
+        //return await
+    }*/
+
+    // Accesses ProductModel object and retrieves name based on length
+    private Func<ProductModel, object> _sortBy => x =>
+    {
+        if (_sortNameByLength)
+            return x.Name.Length;
+        else
+            return x.Name;
+    };
+
+    // quick filter - filter globally across multiple columns with the same input
+    private Func<ProductModel, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.Name.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if ($"{x.Product_id} {x.Description} {x.Unit_price} {x.Quantity_available}".Contains(_searchString))
+            return true;
+
+        return false;
+    };
+    
+    /*-----------------------------------------------------------------------------------------------------------*/
+
+    // Regular Iventory
     private List<ProductModel> products;
 
     [SupplyParameterFromForm(FormName = "updateForm")]
@@ -182,7 +338,7 @@ else
             return;
         }
 
-        products = await _db.GetProduct();
+        _products = await _db.GetProduct();
     }
 
 
@@ -230,7 +386,4 @@ else
         await LoadProducts(); // Refresh inventory after update
         updatedProduct = new UpdateProductModel(); // Reset form after submission
     }
-
-
-    
 }

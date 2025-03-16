@@ -18,6 +18,7 @@ else if (!_suppliers.Any())
 }
 else
 {
+    <!-- Original HTML Table -->
     @* <table class="table-striped table">
             <thead>
                 <tr>
@@ -40,7 +41,8 @@ else
             </tbody>
         </table> *@
 
-    <MudDataGrid T="SupplierModel" MultiSelection="true" Items="@_suppliers"
+    <!-- MudBlazor Table -->
+    <MudDataGrid T="SupplierModel" MultiSelection="true" Items="@_suppliers" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
                  Hideable="true">
         <ToolBarContent>
             <MudText Typo="Typo.h6">Suppliers</MudText>
@@ -59,10 +61,6 @@ else
             <MudDataGridPager T="SupplierModel" />
         </PagerContent>
     </MudDataGrid>
-
-    <div class="d-flex mt-4 flex-wrap">
-        <MudSwitch @bind-Value="@_sortNameByLength" Color="Color.Primary">Sort Name Column By Length</MudSwitch>
-    </div>
 }
 
 @code {
@@ -70,6 +68,8 @@ else
 
     private string _searchString = "";
     private bool _sortNameByLength;
+
+    private List<string> _events = new();
 
     // This method will be called when the page is initialized
     protected override async Task OnInitializedAsync()
@@ -81,11 +81,27 @@ else
         await _db.NotifySuppliersAboutLowStock();
     }
 
+    // Accesses SupplierModel object and retrieves name based on length
     private Func<SupplierModel, object> _sortBy => x =>
     {
         if (_sortNameByLength)
             return x.Name.Length;
         else
             return x.Name;
+    };
+
+    // quick filter - filter globally across multiple columns with the same input
+    private Func<SupplierModel, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.Name.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if ($"{x.Contact_Person} {x.Phone_Number} {x.Address}".Contains(_searchString))
+            return true;
+
+        return false;
     };
 }
