@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 using DataAccessLibrary.Model;
 using Microsoft.Data.SqlClient;
 
-namespace DataAccessLibrary
+namespace DataAccessLibrary 
 {
+
+
     public class ShipmentData : IShipmentData
     {
         private readonly ISqlDataAccess _db;
@@ -73,5 +75,52 @@ namespace DataAccessLibrary
             var result = await _db.LoadData<ShipmentModel, dynamic>(sql, new { OrderId = orderId });
             return result.FirstOrDefault();
         }
+
+        public async Task<OrderDetail> GetOrderDetails(int orderId)
+        {
+            string sql = @"
+    SELECT 
+        o.order_id,
+        u.user_name AS CustomerName,
+        u.email AS CustomerEmail,
+        o.total_amount
+    FROM Orders o
+    JOIN Users u ON o.user_id = u.user_id  
+    WHERE o.order_id = @OrderId";
+
+            var orderDetails = await _db.LoadData<OrderDetail, dynamic>(sql, new { OrderId = orderId });
+
+            if (!orderDetails.Any())
+            {
+                throw new Exception("Order not found.");
+            }
+
+            var details = orderDetails.First();
+
+            // Fetch order items
+            string itemsSql = @"
+SELECT 
+    p.name,
+    od.quantity_ordered,
+    od.price
+FROM OrderDetails od
+JOIN Product p ON od.product_id = p.product_id
+WHERE od.order_id = @OrderId";
+
+            var items = await _db.LoadData<OrderItemModel, dynamic>(itemsSql, new { OrderId = orderId });
+
+            foreach (var item in items)
+            {
+                // Log the raw data for debugging
+                Console.WriteLine($"Item: {item.Name}, Quantity Ordered: {item.Quantity_ordered}, Price: {item.Price}");
+            }
+
+            details.Items = items;
+
+
+            return details;
+
+        }
+
     }
 }

@@ -1,7 +1,8 @@
 ﻿@page "/orders"
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
-@inject IShipmentData ShipmentData 
+@inject IShipmentData ShipmentData
+@inject IStoreData StoreData  // Inject StoreData to fetch customer details
 @rendermode InteractiveServer
 <PageTitle>Orders</PageTitle>
 
@@ -45,6 +46,9 @@ else
                         <button class="btn btn-primary" @onclick="() => UpdateShipmentStatus(order.Order_Id, order.Shipment_Confirmation)">
                             Update Status
                         </button>
+                        <button class="btn btn-info ms-2" @onclick="() => ShowDetails(order.Order_Id)">
+                            Details
+                        </button>
                     </td>
                 </tr>
             }
@@ -52,8 +56,24 @@ else
     </table>
 }
 
+@if (selectedOrder != null)
+{
+    <h4 class="mt-4">Order Details</h4>
+    <p><strong>Customer Name:</strong> @selectedOrder.CustomerName</p>
+    <p><strong>Customer Email:</strong> @selectedOrder.CustomerEmail</p>
+    <p><strong>Order Total:</strong> $@selectedOrder.Total_Amount</p>
+    <p><strong>Order Items:</strong></p>
+    <ul>
+        @foreach (var item in selectedOrder.Items)
+        {
+            <li>@item.Name - @item.Quantity_ordered x $@item.Price</li>
+        }
+    </ul>
+}
+
 @code {
     private List<ShipmentModel> orders;
+    private OrderDetail selectedOrder;
 
     protected override async Task OnInitializedAsync()
     {
@@ -61,8 +81,7 @@ else
 
         try
         {
-            // Get all shipments directly using ShipmentData
-            orders = await ShipmentData.GetAllShipments();  // Fetch all shipments directly from ShipmentData
+            orders = await ShipmentData.GetAllShipments();
 
             if (orders == null || !orders.Any())
             {
@@ -79,10 +98,8 @@ else
     {
         try
         {
-            // Update shipment status directly using ShipmentData
             await ShipmentData.UpdateShipmentStatus(orderId, status);
 
-            // Update the status in the local list
             var orderToUpdate = orders.FirstOrDefault(order => order.Order_Id == orderId);
             if (orderToUpdate != null)
             {
@@ -94,4 +111,17 @@ else
             Console.WriteLine($"Error updating shipment status for OrderId {orderId}: {ex.Message}");
         }
     }
+
+    private async Task ShowDetails(int orderId) 
+    {
+        try
+        {
+            selectedOrder = await ShipmentData.GetOrderDetails(orderId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching details for OrderId {orderId}: {ex.Message}");
+        }
+    }
+
 }
