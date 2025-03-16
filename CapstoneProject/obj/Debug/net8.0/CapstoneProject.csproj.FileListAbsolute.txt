@@ -573,3 +573,6 @@ C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\Capston
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\brois\Desktop\Desktop\Work\Projects\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\MudBlazor.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\dosti\OneDrive\Desktop\SupplyChainManagementSystem\CapstoneProject\bin\Debug\net8.0\MudBlazor.dll

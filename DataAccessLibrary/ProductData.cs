@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLibrary
@@ -17,8 +16,7 @@ namespace DataAccessLibrary
 
         public Task<List<ProductModel>> GetProduct()
         {
-            string sql = "select * from Product";
-
+            string sql = "SELECT * FROM Product";
             return _db.LoadData<ProductModel, dynamic>(sql, new { });
         }
 
@@ -29,16 +27,25 @@ namespace DataAccessLibrary
                 throw new ArgumentException("Product name cannot be null or empty.");
             }
 
-            string sql = @"INSERT INTO Product (name, description, unit_price, quantity_available)  
-                   VALUES (@Name, @Description, @Unit_price, @Quantity_available);";
+            string sql = @"INSERT INTO Product (name, description, unit_price, quantity_available, supplier_id)  
+                           VALUES (@Name, @Description, @UnitPrice, @QuantityAvailable, @SupplierId);";
 
-            await _db.SaveData(sql, product);
+            var parameters = new
+            {
+                Name = product.Name,
+                Description = product.Description,
+                UnitPrice = product.Unit_price,
+                QuantityAvailable = product.Quantity_available,
+                SupplierId = product.Supplier_Id // Pass SupplierId
+            };
+
+            await _db.SaveData(sql, parameters);
         }
 
         public async Task DeleteProduct(int productId)
         {
-            string sql = "DELETE FROM Product WHERE Product_id = @Product_id;";
-            await _db.SaveData(sql, new { Product_id = productId });
+            string sql = "DELETE FROM Product WHERE Product_id = @ProductId;";
+            await _db.SaveData(sql, new { ProductId = productId });
         }
 
         public Task<List<ProductModel>> SearchProduct(string searchTerm)
@@ -59,11 +66,22 @@ namespace DataAccessLibrary
                 throw new ArgumentException("Product name cannot be null or empty.");
             }
 
-            string sql = @"UPDATE Product SET name = @Name, description = @Description, unit_price = @Unit_price, quantity_available = @Quantity_available
-                           WHERE Product_id = @Product_id;";
+            string sql = @"UPDATE Product 
+                           SET name = @Name, description = @Description, unit_price = @UnitPrice, 
+                               quantity_available = @QuantityAvailable, supplier_id = @SupplierId
+                           WHERE Product_id = @ProductId;";
 
-            await _db.SaveData(sql, product);
+            var parameters = new
+            {
+                Name = product.Name,
+                Description = product.Description,
+                UnitPrice = product.Unit_price,
+                QuantityAvailable = product.Quantity_available,
+                SupplierId = product.Supplier_Id, // Pass SupplierId
+                ProductId = product.Product_id
+            };
+
+            await _db.SaveData(sql, parameters);
         }
-
     }
 }

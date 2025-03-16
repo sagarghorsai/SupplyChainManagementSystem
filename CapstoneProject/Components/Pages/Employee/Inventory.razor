@@ -10,215 +10,36 @@
 @attribute [Authorize(Roles = "employee")]
 
 <PageTitle>Inventory</PageTitle>
-@*
-<h1>Inventory</h1>
 
- <div class="row mb-4">
-    <!-- Search Form -->
-    <div class="col-md-12">
-        <EditForm Model="@searchModel" OnValidSubmit="@SearchProducts" FormName="searchForm">
-            <div class="input-group">
-                <InputText @bind-Value="searchModel.SearchTerm" class="form-control" placeholder="Search products by name..." />
-                <button type="submit" class="btn btn-secondary">Search</button>
-            </div>
-        </EditForm>
-    </div>
-</div>
-
-<div class="row">
-    <!-- Insert Form -->
-    <div class="col-md-6">
-        <h4>Insert New Product</h4>
-        <EditForm Model="@newProduct" OnValidSubmit="@InsertProduct" FormName="insertForm">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-
-            <div class="mb-3">
-                <label for="Name" class="form-label">Product Name:</label>
-                <InputText id="Name" @bind-Value="newProduct.Name" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Name)" />
-            </div>
-
-            <div class="mb-3">
-                <label for="Description" class="form-label">Description:</label>
-                <InputText id="Description" @bind-Value="newProduct.Description" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Description)" />
-            </div>
-
-            <div class="mb-3">
-                <label for="UnitPrice" class="form-label">Unit Price:</label>
-                <InputNumber id="UnitPrice" @bind-Value="newProduct.Unit_price" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Unit_price)" />
-            </div>
-
-            <div class="mb-3">
-                <label for="QuantityAvailable" class="form-label">Quantity Available:</label>
-                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </EditForm>
-    </div>
-
-    <!-- Update Form -->
-    <div class="col-md-6">
-        <h4>Update Product</h4>
-        <EditForm Model="@updatedProduct" OnValidSubmit="@UpdateProduct" FormName="updateForm">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-
-            <div class="mb-3">
-                <label for="UpdateProductId" class="form-label">Product ID:</label>
-                <InputNumber id="UpdateProductId" @bind-Value="updatedProduct.ProductId" class="form-control" />
-            </div>
-
-            <div class="mb-3">
-                <label for="UpdateName" class="form-label">Product Name:</label>
-                <InputText id="UpdateName" @bind-Value="updatedProduct.Name" class="form-control" />
-            </div>
-
-            <div class="mb-3">
-                <label for="UpdateDescription" class="form-label">Description:</label>
-                <InputText id="UpdateDescription" @bind-Value="updatedProduct.Description" class="form-control" />
-            </div>
-
-            <div class="mb-3">
-                <label for="UpdateUnitPrice" class="form-label">Unit Price:</label>
-                <InputNumber id="UpdateUnitPrice" @bind-Value="updatedProduct.Unit_price" class="form-control" />
-            </div>
-
-            <div class="mb-3">
-                <label for="UpdateQuantityAvailable" class="form-label">Quantity Available:</label>
-                <InputNumber id="UpdateQuantityAvailable" @bind-Value="updatedProduct.Quantity_available" class="form-control" />
-            </div>
-
-            <button type="submit" class="btn btn-warning">Update</button>
-        </EditForm>
-    </div>
-
-
-    <!-- Delete Form -->
-    <div class="col-md-6">
-        <h4>Delete Product</h4>
-        <EditForm Model="@deletedProduct" OnValidSubmit="@DeleteProduct" FormName="deleteForm">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-
-            <div class="mb-3">
-                <label for="ProductId" class="form-label">Product ID:</label>
-                <InputNumber id="ProductId" @bind-Value="deletedProduct.ProductId" class="form-control" />
-            </div>
-
-            <button type="submit" class="btn btn-danger">Delete</button>
-        </EditForm>
-    </div>
-</div>
-
-<h4 class="mt-4">Current Inventory</h4>
-
-
-
-    @if (products is null)
-{
-    <p><em>Loading...</em></p>
-}
-else if (!products.Any())
-{
-    <p>No products found.</p>
-}
-else
-{
-    <table class="table-striped table">
-        <thead>
-            <tr>
-                <th>ProductID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>UnitPrice</th>
-                <th>QuantityAvailable</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var p in products)
-            {
-                <tr>
-                    <td>@p.Product_id</td>
-                    <td>@p.Name</td>
-                    <td>@p.Description</td>
-                    <td>@p.Unit_price</td>
-                    <td>@p.Quantity_available</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-} *@
-
-@*-----------------------------------------------------------------------------------------------------------*@
-@*MudBlazor Inventory*@
-
-<!-- MudBlazor Inventory Page -->
 <MudGrid Style="padding: 16px">
     <!-- Insert Product -->
     <MudItem xs="12" sm="6" md="4">
-
-        <!-- Test for Validation for insert product -->
-        @*<EditForm Model="@newProduct" OnValidSubmit="@InsertProduct" FormName="deleteForm">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-
-            <MudText Typo="Typo.h6">Insert New Product</MudText>
-
-            <MudTextField @bind-Value="ipName" Label="Product Name" Variant="Variant.Outlined">
-                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Name" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Name)" />
-            </MudTextField>
-            <MudTextField @bind-Value="ipDescription" Label="Description" Variant="Variant.Outlined">
-                <InputNumber id="Description" @bind-Value="newProduct.Description" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Description)" />
-            </MudTextField>
-            <MudTextField @bind-Value="ipUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined">
-                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
-            </MudTextField>
-            <MudTextField @bind-Value="ipQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined">
-                <InputNumber id="QuantityAvailable" @bind-Value="newProduct.Quantity_available" class="form-control" />
-                <ValidationMessage For="@(() => newProduct.Quantity_available)" />
-            </MudTextField>
-            <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Insert</MudButton>
-
-           
-        </EditForm>*@
-
         <MudText Typo="Typo.h6">Insert New Product</MudText>
-
         <MudTextField @bind-Value="ipName" Label="Product Name" Variant="Variant.Outlined"></MudTextField>
         <MudTextField @bind-Value="ipDescription" Label="Description" Variant="Variant.Outlined"></MudTextField>
         <MudTextField @bind-Value="ipUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined"></MudTextField>
         <MudTextField @bind-Value="ipQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined"></MudTextField>
-        <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Insert</MudButton>
+        <MudTextField @bind-Value="ipSupplierId" Label="Supplier ID" Variant="Variant.Outlined"></MudTextField> <!-- Add Supplier ID -->
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px" OnClick="InsertProduct">Insert</MudButton>
     </MudItem>
 
     <!-- Update Product -->
     <MudItem xs="12" sm="6" md="4">
-        <EditForm Model="@updatedProduct" OnValidSubmit="@UpdateProduct" FormName="deleteForm">
-            <MudText Typo="Typo.h6"> Update Product </MudText>
-            <MudTextField @bind-Value="upID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
-            <MudTextField @bind-Value="upName" Label="Product Name" Variant="Variant.Outlined"></MudTextField>
-            <MudTextField @bind-Value="upDescription" Label="Description" Variant="Variant.Outlined"></MudTextField>
-            <MudTextField @bind-Value="upUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined"></MudTextField>
-            <MudTextField @bind-Value="upQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined"></MudTextField>
-            <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px">Update</MudButton>
-        </EditForm>
+        <MudText Typo="Typo.h6">Update Product</MudText>
+        <MudTextField @bind-Value="upID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="upName" Label="Product Name" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="upDescription" Label="Description" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="upUnitPrice" Label="Unit Price" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AttachMoney" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="upQuantityAvailable" Label="Quantity Available" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="upSupplierId" Label="Supplier ID" Variant="Variant.Outlined"></MudTextField> <!-- Add Supplier ID -->
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Style="margin:5px" OnClick="UpdateProduct">Update</MudButton>
     </MudItem>
 
     <!-- Delete Product -->
     <MudItem xs="12" sm="6" md="4">
-        <EditForm Model="@deletedProduct" OnValidSubmit="@DeleteProduct" FormName="deleteForm">
-            <MudText Typo="Typo.h6"> Delete Product </MudText>
-            <MudTextField @bind-Value="dpID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
-            <MudButton Variant="Variant.Filled" Color="Color.Secondary" Style="margin:5px">Delete</MudButton>
-        </EditForm>
+        <MudText Typo="Typo.h6">Delete Product</MudText>
+        <MudTextField @bind-Value="dpID" Label="Product ID" Variant="Variant.Outlined"></MudTextField>
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" Style="margin:5px" OnClick="DeleteProduct">Delete</MudButton>
     </MudItem>
 </MudGrid>
 
@@ -234,7 +55,6 @@ else
 {
     <MudDataGrid T="ProductModel" MultiSelection="true" Items="@_products" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
                  Hideable="true">
-
         <ToolBarContent>
             <MudText Typo="Typo.h6">Inventory</MudText>
             <MudSpacer />
@@ -242,7 +62,6 @@ else
                           AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
         </ToolBarContent>
 
-        <!-- Inventory List -->
         <Columns>
             <SelectColumn T="ProductModel" />
             <PropertyColumn Property="x => x.Product_id" Title="Product ID" />
@@ -250,47 +69,25 @@ else
             <PropertyColumn Property="x => x.Description" />
             <PropertyColumn Property="x => x.Unit_price" Title="Unit Price" />
             <PropertyColumn Property="x => x.Quantity_available" Title="Quantity" />
+            <PropertyColumn Property="x => x.Supplier_Id" Title="Supplier ID" />
         </Columns>
         <PagerContent>
             <MudDataGridPager T="ProductModel" />
         </PagerContent>
-
     </MudDataGrid>
 }
 
 @code {
-    // Mudblazor Additions
     private IEnumerable<ProductModel> _products = new List<ProductModel>();
 
-    /* Product Model objects for individual search bars
-     * ip = Insert Product, up = Update Product, dp = Delete Product  */
-    private string ipName = "", ipDescription = "", ipUnitPrice = "", ipQuantityAvailable = "",
-                upID = "", upName = "", upDescription = "", upUnitPrice = "", upQuantityAvailable = "",
+    private string ipName = "", ipDescription = "", ipUnitPrice = "", ipQuantityAvailable = "", ipSupplierId = "",
+                upID = "", upName = "", upDescription = "", upUnitPrice = "", upQuantityAvailable = "", upSupplierId = "",
                 dpID = "";
 
-    /*public decimal ipUnitPrice { get; set; }
-    public decimal ipQuantityAvailable { get; set; }*/
-
     private string _searchString = "";
-    private bool _sortNameByLength;
 
-    /*private async Task<IEnumerable<ProductModel>> Search(string value, CancellationToken token)
-    {
-        return await httpClient.GetFromJsonAsync<List<ProductModel>>(value/*$"webapi/periodictable/{value}", token);
+    private Func<ProductModel, object> _sortBy => x => x.Name;
 
-        //return await
-    }*/
-
-    // Accesses ProductModel object and retrieves name based on length
-    private Func<ProductModel, object> _sortBy => x =>
-    {
-        if (_sortNameByLength)
-            return x.Name.Length;
-        else
-            return x.Name;
-    };
-
-    // quick filter - filter globally across multiple columns with the same input
     private Func<ProductModel, bool> _quickFilter => x =>
     {
         if (string.IsNullOrWhiteSpace(_searchString))
@@ -304,23 +101,6 @@ else
 
         return false;
     };
-    
-    /*-----------------------------------------------------------------------------------------------------------*/
-
-    // Regular Iventory
-    private List<ProductModel> products;
-
-    [SupplyParameterFromForm(FormName = "updateForm")]
-    private UpdateProductModel updatedProduct { get; set; } = new UpdateProductModel();
-
-    [SupplyParameterFromForm(FormName = "searchForm")]
-    private SearchModel searchModel { get; set; } = new SearchModel();
-
-    [SupplyParameterFromForm(FormName = "insertForm")]
-    private DisplayProductModel newProduct { get; set; } = new();
-
-    [SupplyParameterFromForm(FormName = "deleteForm")]
-    private DeletedProductModel deletedProduct { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -341,49 +121,80 @@ else
         _products = await _db.GetProduct();
     }
 
-
     private async Task InsertProduct()
     {
-        ProductModel productModel = new ProductModel(
-            newProduct.Name,
-            newProduct.Description,
-            newProduct.Unit_price,
-            newProduct.Quantity_available
-        );
+        // Validate inputs before attempting to insert
+        if (string.IsNullOrEmpty(ipName) || string.IsNullOrEmpty(ipSupplierId) ||
+            string.IsNullOrEmpty(ipUnitPrice) || string.IsNullOrEmpty(ipQuantityAvailable))
+        {
+            Console.WriteLine("Please fill all required fields.");
+            return;
+        }
 
-        await _db.InsertProduct(productModel);
+        // Log input values to make sure they're properly captured
+        Console.WriteLine($"Inserting Product: Name={ipName}, SupplierId={ipSupplierId}, UnitPrice={ipUnitPrice}, Quantity={ipQuantityAvailable}");
+
+        // Create a new product model from the input values
+        var newProduct = new ProductModel
+            {
+                Name = ipName,
+                Description = ipDescription,
+                Unit_price = decimal.TryParse(ipUnitPrice, out var unitPrice) ? unitPrice : 0,
+                Quantity_available = int.TryParse(ipQuantityAvailable, out var quantity) ? quantity : 0,
+                Supplier_Id = int.TryParse(ipSupplierId, out var supplierId) ? supplierId : 0
+            };
+
+        // Log the product data before inserting
+        Console.WriteLine($"Product to Insert: {newProduct.Name}, {newProduct.Description}, {newProduct.Unit_price}, {newProduct.Quantity_available}, {newProduct.Supplier_Id}");
+
+        // Call the database insertion method
+        try
+        {
+            await _db.InsertProduct(newProduct);
+            Console.WriteLine("Product inserted successfully.");
+
+            // Reload products after insertion
+            await LoadProducts();
+        }
+        catch (Exception ex)
+        {
+            // Log any errors that occur during insertion
+            Console.WriteLine($"Error inserting product: {ex.Message}");
+        }
+    }
+
+
+    private async Task UpdateProduct()
+    {
+        if (string.IsNullOrEmpty(upID) || string.IsNullOrEmpty(upName) || string.IsNullOrEmpty(upSupplierId))
+        {
+            Console.WriteLine("Please fill all required fields.");
+            return;
+        }
+
+        var updatedProduct = new ProductModel
+            {
+                Product_id = int.Parse(upID),
+                Name = upName,
+                Description = upDescription,
+                Unit_price = decimal.Parse(upUnitPrice),
+                Quantity_available = int.Parse(upQuantityAvailable),
+                Supplier_Id = int.Parse(upSupplierId)
+            };
+
+        await _db.UpdateProduct(updatedProduct);
         await LoadProducts();
-        newProduct = new DisplayProductModel();
     }
 
     private async Task DeleteProduct()
     {
-        await _db.DeleteProduct(deletedProduct.ProductId);
+        if (string.IsNullOrEmpty(dpID))
+        {
+            Console.WriteLine("Please provide a product ID.");
+            return;
+        }
+
+        await _db.DeleteProduct(int.Parse(dpID));
         await LoadProducts();
-        deletedProduct = new DeletedProductModel();
-    }
-
-
-    private async Task SearchProducts()
-    {
-        // Using the SearchProduct method added to your IProductData
-        products = await _db.SearchProduct(searchModel.SearchTerm);
-    }
-
-    private async Task UpdateProduct()
-    {
-        Console.WriteLine("Updating");
-
-        ProductModel productModel = new ProductModel(
-           updatedProduct.ProductId,  // Ensure ProductId is included
-           updatedProduct.Name,
-           updatedProduct.Description,
-           updatedProduct.Unit_price,
-           updatedProduct.Quantity_available
-        );
-
-        await _db.UpdateProduct(productModel);
-        await LoadProducts(); // Refresh inventory after update
-        updatedProduct = new UpdateProductModel(); // Reset form after submission
     }
 }

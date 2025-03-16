@@ -36,6 +36,14 @@ namespace DataAccessLibrary.Model
             Supplier_Id = supplierId;
             Quantity_available = quantityAvailable;
         }
+        public ProductModel( string name, string description, decimal unitPrice, int supplierId, int quantityAvailable = 0)
+        {
+            Name = name;
+            Description = description;
+            Unit_price = unitPrice;
+            Supplier_Id = supplierId;
+            Quantity_available = quantityAvailable;
+        }
 
         public ProductModel( string name, string description, decimal unitPrice, int quantityAvailable = 0)
         {
