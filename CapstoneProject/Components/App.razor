@@ -1,9 +1,8 @@
 ﻿@inject AuthenticationStateProvider AuthenticationStateProvider
-@inject NavigationManager navigationManager;
+@inject NavigationManager navigationManager
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,52 +13,61 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
-
     <HeadOutlet />
 </head>
-
 <body class="font-mono">
-    <Routes @rendermode="@IsServerSide()" />
+    <!-- MudBlazor Main Menu Layout -->
+    <Routes @rendermode="@GetRenderMode()" />
     <script src="_framework/blazor.web.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-
 </body>
-
 </html>
-
 
 @code {
     private bool isAuthenticated;
-    public string _currentPage = "";
 
-    // Get the current page based on its href
-    void onCurrentPage()
+    protected override void OnInitialized()
+    {
+        // Set the initial current page
+        UpdateCurrentPage();
+    }
+
+    private string _currentPage = "";
+
+    private void UpdateCurrentPage()
     {
         var uri = new Uri(navigationManager.Uri);
         _currentPage = uri.AbsolutePath;
     }
 
-    private IComponentRenderMode? IsServerSide()
+    private IComponentRenderMode? GetRenderMode()
     {
-        // If user is authorized, return true
+        // Update the current page before checking
+        UpdateCurrentPage();
 
         var authState = AuthenticationStateProvider.GetAuthenticationStateAsync().Result;
         var user = authState.User;
-
-        // Check if the user is authenticated
         isAuthenticated = user?.Identity?.IsAuthenticated ?? false;
 
-        // If the user is authenticated and the current page is not on the Landing Page, apply rendermode
-        if (isAuthenticated && !_currentPage.Contains("/#") && !_currentPage.Contains("/logout"))
+        // Handle logout page specially
+        if (_currentPage.Contains("/logout"))
+        {
+            return null; // Static rendering for logout
+        }
+
+        // For authenticated users on non-landing pages
+        if (isAuthenticated && !_currentPage.Contains("/#"))
+        {
             return RenderModeForPage;
-        else
-            return null;
+        }
+
+        return null;
     }
 
     [CascadingParameter]
     public HttpContext? HttpContext { get; set; }
 
     private IComponentRenderMode? RenderModeForPage =>
-    HttpContext!.Request.Path.StartsWithSegments("/static", StringComparison.OrdinalIgnoreCase) ?
-    null : new InteractiveServerRenderMode(prerender: false);
+        HttpContext!.Request.Path.StartsWithSegments("/static", StringComparison.OrdinalIgnoreCase) ?
+        null : new InteractiveServerRenderMode(prerender: false);
 }
