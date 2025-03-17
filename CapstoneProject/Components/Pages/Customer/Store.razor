@@ -2,11 +2,11 @@
 @rendermode InteractiveServer
 
 @using DataAccessLibrary
-@using CapstoneProject.Components.Model // Keep this as is
-@using DataAccessLibrary.Model // Add this line
+@using CapstoneProject.Components.Model 
+@using DataAccessLibrary.Model
 
-@using CartItemDA = DataAccessLibrary.Model.CartItem // Alias CartItem from DataAccessLibrary
-@using CartItemCM = CapstoneProject.Components.Model.CartItem // Alias CartItem from CapstoneProject
+@using CartItemDA = DataAccessLibrary.Model.CartItem
+@using CartItemCM = CapstoneProject.Components.Model.CartItem 
 
 @using Microsoft.AspNetCore.Authorization
 @inject IProductData _db
@@ -14,7 +14,7 @@
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @attribute [Authorize(Roles = "customer")]
 
-<h3>Store</h3>
+<h1>Store</h1>
 
 <div class="row mb-4">
 	<div class="col-md-6">
@@ -66,7 +66,7 @@ else
 
 @if (cartItems.Any())
 {
-	<h4>Checkout</h4>
+	<h3>Checkout</h3>
 	<table class="table-striped table">
 		<thead>
 			<tr>
@@ -98,6 +98,7 @@ else
 }
 
 @code {
+
 	private List<StoreModel> products;
 	List<CartItemDA> cartItems = new List<CartItemDA>(); // DataAccessLibrary.CartItem
 	private string searchTerm = "";

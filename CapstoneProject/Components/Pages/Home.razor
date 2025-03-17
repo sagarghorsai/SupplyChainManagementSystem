@@ -10,14 +10,17 @@
     @if (_isEmployee)
     {
     <!--Employee DashBoard-->
-    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+    <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
         <!-- Header Section -->
         <MudPaper Class="mud-elevation-5 p-4">
-            <MudText Typo="Typo.h3" Align="Align.Center">Capstone Project</MudText>
+            <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="1">
+                <MudText Typo="Typo.h3">CoreTrack</MudText>
+                <MudImage Src="images/CoreTrack.png" Width="50" Height="50" />
+            </MudStack>
             <MudText Typo="Typo.subtitle1" Align="Align.Center">
                 Optimize your supply chain operations with ease.
             </MudText>
-        </MudPaper>
+        </MudPaper> 
 
         <MudDivider />
 
@@ -140,7 +143,7 @@
         <!-- Footer -->
         <MudPaper Class="mud-elevation-2 mt-5 p-3" Style="background-color: #f2f2f2; border-radius: 12px;">
             <MudText Typo="Typo.caption" Align="Align.Center">
-                © 2025 Capstone Project Inc. All rights reserved.
+                © 2025 CoreTrack Inc. All rights reserved.
             </MudText>
         </MudPaper>
     </MudContainer>
@@ -149,10 +152,13 @@
     else
     {
     <!--Customer Dashboard-->
-    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+    <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
         <!-- Header Section -->
         <MudPaper Class="mud-elevation-5 p-4">
-            <MudText Typo="Typo.h3" Align="Align.Center">Capstone Project</MudText>
+            <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="1">
+                <MudText Typo="Typo.h3">CoreTrack</MudText>
+                <MudImage Src="images/CoreTrack.png" Width="50" Height="50" />
+            </MudStack>
             <MudText Typo="Typo.subtitle1" Align="Align.Center">
                 Optimize your supply chain operations with ease.
             </MudText>
