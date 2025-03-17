@@ -2,8 +2,8 @@
 @rendermode InteractiveServer
 
 @using DataAccessLibrary
-@using CapstoneProject.Components.Model // Keep this as is
-@using DataAccessLibrary.Model // Add this line
+@using CapstoneProject.Components.Model 
+@using DataAccessLibrary.Model 
 
 @using CartItemDA = DataAccessLibrary.Model.CartItem 
 @using CartItemCM = CapstoneProject.Components.Model.CartItem 
@@ -14,7 +14,7 @@
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @attribute [Authorize(Roles = "customer")]
 
-<h3>Store</h3>
+<h3 style="font-size: xx-large; text-align: center">Store</h3>
 
 <div class="row mb-4">
 	<div class="col-md-6">
@@ -99,7 +99,7 @@ else
 
 @code {
 	private List<StoreModel> products;
-	List<CartItemDA> cartItems = new List<CartItemDA>(); // DataAccessLibrary.CartItem
+	List<CartItemDA> cartItems = new List<CartItemDA>(); 
 	private string searchTerm = "";
 	private decimal totalAmount;
 
