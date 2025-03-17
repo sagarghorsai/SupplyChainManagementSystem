@@ -10,6 +10,7 @@ namespace DataAccessLibrary
         Task<OrderModel> Checkout(int userId, int supplierId);
         Task<List<ProductModel>> GetAvailableProducts();
         Task<List<CartItem>> GetCartItems();
+        Task<List<OrderModel>> GetOrdersForUser(string username);
         decimal GetTotal();
         Task<UsersModel> GetUserByUsername(string username);
         Task RemoveFromCart(int productId);

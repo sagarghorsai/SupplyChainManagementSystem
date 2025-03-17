@@ -6,80 +6,80 @@ using System.Threading.Tasks;
 
 namespace DataAccessLibrary
 {
-	public class StoreData : IStoreData
-	{
-		private readonly ISqlDataAccess _db;
-		public List<CartItem> Cart { get; private set; }
+    public class StoreData : IStoreData
+    {
+        private readonly ISqlDataAccess _db;
+        public List<CartItem> Cart { get; private set; }
 
-		public StoreData(ISqlDataAccess db)
-		{
-			Cart = new List<CartItem>();
-			_db = db;
-		}
+        public StoreData(ISqlDataAccess db)
+        {
+            Cart = new List<CartItem>();
+            _db = db;
+        }
 
-		// Fetch Available Products
-		public async Task<List<ProductModel>> GetAvailableProducts()
-		{
-			string sql = "SELECT * FROM Product WHERE Quantity_available > 0";
-			return await _db.LoadData<ProductModel, dynamic>(sql, new { });
-		}
+        // Fetch Available Products
+        public async Task<List<ProductModel>> GetAvailableProducts()
+        {
+            string sql = "SELECT * FROM Product WHERE Quantity_available > 0";
+            return await _db.LoadData<ProductModel, dynamic>(sql, new { });
+        }
 
-		// Add to Cart
-		public async Task AddToCart(ProductModel product, int quantity, int supplierId)
-		{
-			if (product.Quantity_available < quantity)
-			{
-				throw new Exception("Not enough stock available.");
-			}
+        // Add to Cart
+        public async Task AddToCart(ProductModel product, int quantity, int supplierId)
+        {
+            if (product.Quantity_available < quantity)
+            {
+                throw new Exception("Not enough stock available.");
+            }
 
-			var existingItem = Cart.FirstOrDefault(x => x.ProductId == product.Product_id);
-			if (existingItem != null)
-			{
-				existingItem.Quantity += quantity;
-			}
-			else
-			{
-				Cart.Add(new CartItem
-				{
-					ProductId = product.Product_id,
-					Name = product.Name,
-					UnitPrice = product.Unit_price,
-					Quantity = quantity,
-					supplier_id = product.Supplier_Id // Ensure supplier_id is passed and set correctly
-				});
-
-
-			}
-
-			await Task.CompletedTask; // Ensure it's async
-			Console.WriteLine(product.Unit_price);
-			Console.WriteLine($"Added product {product.Name} with ProductId {product.Product_id} to cart.");
-			Console.WriteLine($"supplier_id for this product: {supplierId}");
-		}
+            var existingItem = Cart.FirstOrDefault(x => x.ProductId == product.Product_id);
+            if (existingItem != null)
+            {
+                existingItem.Quantity += quantity;
+            }
+            else
+            {
+                Cart.Add(new CartItem
+                {
+                    ProductId = product.Product_id,
+                    Name = product.Name,
+                    UnitPrice = product.Unit_price,
+                    Quantity = quantity,
+                    supplier_id = product.Supplier_Id // Ensure supplier_id is passed and set correctly
+                });
 
 
-		public decimal GetTotal()
-		{
-			return Cart.Sum(x => x.UnitPrice * x.Quantity);
-		}
+            }
 
-		public async Task<List<CartItem>> GetCartItems()
-		{
-			return await Task.FromResult(Cart);  // Or fetch from database if necessary
-		}
+            await Task.CompletedTask; // Ensure it's async
+            Console.WriteLine(product.Unit_price);
+            Console.WriteLine($"Added product {product.Name} with ProductId {product.Product_id} to cart.");
+            Console.WriteLine($"supplier_id for this product: {supplierId}");
+        }
 
-		// Remove from Cart
-		public async Task RemoveFromCart(int productId)
-		{
-			var item = Cart.FirstOrDefault(x => x.ProductId == productId);
-			if (item != null)
-			{
-				Cart.Remove(item);
-			}
-			await Task.CompletedTask; // Ensure it's async
-		}
 
-        // Save Order in Database
+        public decimal GetTotal()
+        {
+            return Cart.Sum(x => x.UnitPrice * x.Quantity);
+        }
+
+        public async Task<List<CartItem>> GetCartItems()
+        {
+            return await Task.FromResult(Cart);  // Or fetch from database if necessary
+        }
+
+        // Remove from Cart
+        public async Task RemoveFromCart(int productId)
+        {
+            var item = Cart.FirstOrDefault(x => x.ProductId == productId);
+            if (item != null)
+            {
+                Cart.Remove(item);
+            }
+            await Task.CompletedTask; // Ensure it's async
+        }
+
+
         // Save Order in Database
         public async Task SaveOrder(int customerId, int supplierId)
         {
@@ -167,18 +167,26 @@ namespace DataAccessLibrary
 
         // Get User by Username
         public async Task<UsersModel> GetUserByUsername(string username)
-		{
-			string sql = "SELECT * FROM Users WHERE user_name = @Username"; // Corrected to 'user_name'
-			var result = await _db.LoadData<UsersModel, dynamic>(sql, new { Username = username });
-			return result.FirstOrDefault(); // Return the first matching user
-		}
+        {
+            string sql = "SELECT * FROM Users WHERE user_name = @Username"; // Corrected to 'user_name'
+            var result = await _db.LoadData<UsersModel, dynamic>(sql, new { Username = username });
+            return result.FirstOrDefault(); // Return the first matching user
+        }
 
-		// Checkout
-		public async Task<OrderModel> Checkout(int userId, int supplierId)
-		{
-			await SaveOrder(userId, supplierId); // Pass both userId and supplierId
-			return new OrderModel { OrderId = 123 }; // Example, return the actual order model
-		}
+        // Checkout
+        public async Task<OrderModel> Checkout(int userId, int supplierId)
+        {
+            await SaveOrder(userId, supplierId); // Pass both userId and supplierId
+            return new OrderModel { Order_Id = 123 }; // Example, return the actual order model
+        }
 
-	}
+        public async Task<List<OrderModel>> GetOrdersForUser(string username)
+        {
+            string sql = "SELECT * FROM Orders WHERE user_id = (SELECT user_id FROM Users WHERE user_name = @Username)";
+            var result = await _db.LoadData<OrderModel, dynamic>(sql, new { Username = username });
+            return result.ToList();
+        }
+
+
+    }
 }

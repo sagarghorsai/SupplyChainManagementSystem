@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xeyTglI60DGuDYyVUSqrr4ogzMEtjGa3fclqHRAYs8E=",
+  "Hash": "K0VlluBvez15t01DUkYALJBSCPqMzBR5wksQJiWzE6Q=",
   "Source": "CapstoneProject",
   "BasePath": "_content/CapstoneProject",
   "Mode": "Default",
@@ -4273,12 +4273,12 @@
       "OriginalItemSpec": "wwwroot\\images\\client_logo_tesla-p-130x130q80.png"
     },
     {
-      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\CoreTrack Logo )Background Removed.png",
+      "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\CoreTrack.png",
       "SourceId": "CapstoneProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\",
       "BasePath": "_content/CapstoneProject",
-      "RelativePath": "images/CoreTrack Logo )Background Removed.png",
+      "RelativePath": "images/CoreTrack.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4289,7 +4289,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CoreTrack Logo )Background Removed.png"
+      "OriginalItemSpec": "wwwroot\\images\\CoreTrack.png"
     },
     {
       "Identity": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\email-icon-white.svg",

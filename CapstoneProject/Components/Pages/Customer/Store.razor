@@ -212,7 +212,7 @@ else
 			Console.WriteLine(supplierId);
 			var order = await _sb.Checkout(userId, supplierId);
 
-			Console.WriteLine($"Checkout completed, order ID: {order.OrderId}"); // 'order_id' instead of 'OrderId'
+			Console.WriteLine($"Checkout completed, order ID: {order.Order_Id}"); // 'order_id' instead of 'OrderId'
 
 			// Clear the cart and reload products after checkout
 			cartItems.Clear();

@@ -8,7 +8,7 @@ namespace DataAccessLibrary.Model
 {
     public class OrderModel
     {
-        public int OrderId { get; set; }
+        public int Order_Id { get; set; }
         public int UserId { get; set; }
         public int SupplierId { get; set; }
         public DateTime OrderDate { get; set; }
