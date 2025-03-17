@@ -1,23 +1,23 @@
 ﻿@page "/orders"
 @using DataAccessLibrary
 @using DataAccessLibrary.Model
-@inject IShipmentData ShipmentData 
+@inject IShipmentData ShipmentData
 @rendermode InteractiveServer
+
 <PageTitle>Orders</PageTitle>
 
-<h3>Orders</h3>
-
-@if (orders == null)
+@if (_orders == null)
 {
     <p>Loading orders...</p>
 }
-else if (!orders.Any())
+else if (!_orders.Any())
 {
     <p>No orders found.</p>
 }
 else
 {
-    <table class="table table-striped">
+    <!-- HTML Orders -->/*
+    <table class="table-striped table">
         <thead>
             <tr>
                 <th>Order ID</th>
@@ -28,7 +28,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var order in orders)
+            @foreach (var order in _orders)
             {
                 <tr>
                     <td>@order.Order_Id</td>
@@ -49,22 +49,73 @@ else
                 </tr>
             }
         </tbody>
-    </table>
+    </table>*/
+    
+    /********************************************************************************************/
+    <!-- MudBlazor Orders -->
+
+    <MudDataGrid T="ShipmentModel" Items="@_orders.Take(_orders.Count())" ReadOnly="@_readOnly" EditMode="@(_isCellEditMode ? DataGridEditMode.Cell : DataGridEditMode.Form)"
+                 StartedEditingItem="@StartedEditingItem" CanceledEditingItem="@CanceledEditingItem" CommittedItemChanges="@CommittedItemChanges"
+                 Bordered="true" Style="width: 1675px" Dense="true">
+        <Columns>
+            <PropertyColumn Property="x => x.Order_Id" Title="Order ID" Editable="false" />
+            <PropertyColumn Property="x => x.Shipment_Confirmation" Title="Shipment Confirmation" Style="">
+                <EditTemplate>
+                    <MudSelect @bind-Value="context.Item.Shipment_Confirmation" Required RequiredError="Select Shipment Status" Margin="@Margin.Dense" >
+                         <MudSelectItem Value="validStatuses[0]">Pending</MudSelectItem>
+                         <MudSelectItem Value="validStatuses[1]">Shipped</MudSelectItem>
+                         <MudSelectItem Value="validStatuses[2]">Delivered</MudSelectItem>
+                     </MudSelect>
+                 </EditTemplate>
+             </PropertyColumn>
+             <PropertyColumn Property="x => x.Shipment_Date" Title="Shipment Date" Editable="false" />
+             <PropertyColumn Property="x => x.Estimated_Arrival_Date" Title="Estimated Arrival Date" Editable="false" />
+             <PropertyColumn Property="x => x.Estimated_Arrival_Date" Title="Order ID" Editable="false" />
+             <TemplateColumn CellClass="justify-center" Title="Actions" Editable="false">
+                 <CellTemplate>
+                     <MudStack Row>
+                     <MudButton Size="@Size.Medium" Variant="Variant.Filled" Color="Color.Primary" @onclick="() => UpdateShipmentStatus(context.Item.Order_Id, context.Item.Shipment_Confirmation)">Update Status</MudButton>
+                 </MudStack>
+             </CellTemplate>
+         </TemplateColumn>
+     </Columns>
+ </MudDataGrid>
 }
 
 @code {
-    private List<ShipmentModel> orders;
+    <!-- MudBlazor Variables -->
+    public IEnumerable<ShipmentModel> _orders = new List<ShipmentModel>();
+    private List<string> validStatuses = new List<string> { "Pending", "Shipped", "Delivered" };
+    private bool _readOnly;
+    private bool _isCellEditMode = true;
+    private List<string> _events = new();
+
+    // Shipment Editing Events
+    void StartedEditingItem(ShipmentModel item)
+    {
+        _events.Insert(0, $"Event = StartedEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
+
+    void CanceledEditingItem(ShipmentModel item)
+    {
+        _events.Insert(0, $"Event = CanceledEditingItem, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
+
+    void CommittedItemChanges(ShipmentModel item)
+    {
+        _events.Insert(0, $"Event = CommittedItemChanges, Data = {System.Text.Json.JsonSerializer.Serialize(item)}");
+    }
 
     protected override async Task OnInitializedAsync()
     {
-        orders = new List<ShipmentModel>();
+        _orders = new List<ShipmentModel>();
 
         try
         {
             // Get all shipments directly using ShipmentData
-            orders = await ShipmentData.GetAllShipments();  // Fetch all shipments directly from ShipmentData
+            _orders = await ShipmentData.GetAllShipments();  // Fetch all shipments directly from ShipmentData
 
-            if (orders == null || !orders.Any())
+            if (_orders == null || !_orders.Any())
             {
                 Console.WriteLine("No orders found.");
             }
@@ -83,7 +134,7 @@ else
             await ShipmentData.UpdateShipmentStatus(orderId, status);
 
             // Update the status in the local list
-            var orderToUpdate = orders.FirstOrDefault(order => order.Order_Id == orderId);
+            var orderToUpdate = _orders.FirstOrDefault(order => order.Order_Id == orderId);
             if (orderToUpdate != null)
             {
                 orderToUpdate.Shipment_Confirmation = status;

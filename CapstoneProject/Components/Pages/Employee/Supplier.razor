@@ -18,29 +18,6 @@ else if (!_suppliers.Any())
 }
 else
 {
-    <!-- Original HTML Table -->
-    @* <table class="table-striped table">
-            <thead>
-                <tr>
-                    <th>Supplier Name</th>
-                    <th>Contact Person</th>
-                    <th>Phone Number</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-            @foreach (var supplier in suppliers)
-            {
-                    <tr>
-                        <td>@supplier.Name</td>
-                        <td>@supplier.Contact_Person</td>
-                        <td>@supplier.Phone_Number</td>
-                        <td>@supplier.Address</td>
-                    </tr>
-            }
-            </tbody>
-        </table> *@
-
     <!-- MudBlazor Table -->
     <MudDataGrid T="SupplierModel" MultiSelection="true" Items="@_suppliers" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
                  Hideable="true">

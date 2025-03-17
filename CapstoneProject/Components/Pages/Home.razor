@@ -1,7 +1,247 @@
 ﻿@page "/"
 
+@using CapstoneProject.Components.Pages
+@using DataAccessLibrary.Model
+@inject AuthenticationStateProvider authentication
+
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+    @if (_isEmployee)
+    {
+    <!--Employee DashBoard-->
+    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+        <!-- Header Section -->
+        <MudPaper Class="mud-elevation-5 p-4">
+            <MudText Typo="Typo.h3" Align="Align.Center">Capstone Project</MudText>
+            <MudText Typo="Typo.subtitle1" Align="Align.Center">
+                Optimize your supply chain operations with ease.
+            </MudText>
+        </MudPaper>
+
+        <MudDivider />
+
+        <!-- Welcome Message & Date/Time -->
+        <MudCard Class="pa-4 mb-4" Style="background-color: #f5f5f5;">
+            <MudCardContent Class="d-flex flex-column align-items-center">
+                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, UserName!</MudText>
+                <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold mt-2">
+                    📅 Today's Date: <span style="color: #000;">@DateTime.Now.ToString("MMMM dd, yyyy")</span>
+                </MudText>
+
+                <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold">
+                    ⏰ Current Time: <span style="color: #000;">@DateTime.Now.ToString("hh:mm tt")</span>
+                </MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <!-- Quick Navigation -->
+        <MudGrid Class="mt-5">
+            <MudItem xs="12" md="3">
+                <MudCard Class="hover-elevation-3" Style="border-radius: 15px; background-color: #f7f8fc;">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.Inventory" Size="Size.Large" Color="Color.Primary" />
+                        <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Inventory</span></MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <span style="color: #000;">Manage stock levels and forecast demands effectively.</span>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton Variant="Variant.Text" Color="Color.Primary" Href="/inventory">Explore</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" md="3">
+                <MudCard Class="hover-elevation-3" Style="border-radius: 15px; background-color: #f7f8fc;">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.LocalShipping" Size="Size.Large" Color="Color.Secondary" />
+                        <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Logistics</span></MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <span style="color: #000;">Optimize routes and track shipments in real-time.</span>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudTooltip Text="Unavailable">
+                            <MudButton Variant="Variant.Text" Color="Color.Secondary">Track</MudButton>
+                        </MudTooltip>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" md="3">
+                <MudCard Class="hover-elevation-3" Style="border-radius: 15px; background-color: #f7f8fc;">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.Assessment" Size="Size.Large" Color="Color.Info" />
+                        <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Analytics</span></MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <span style="color: #000;">Uncover valuable insights with custom reports.</span>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudTooltip Text="Unavailable">
+                            <MudButton Variant="Variant.Text" Color="Color.Info">Analyze</MudButton>
+                        </MudTooltip>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" md="3">
+                <MudCard Class="hover-elevation-3" Style="border-radius: 15px; background-color: #f7f8fc;">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.SupportAgent" Size="Size.Large" Color="Color.Tertiary" />
+                        <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Support</span></MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <span style="color: #000;">Get assistance from our experts 24/7.</span>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton Variant="Variant.Text" Color="Color.Tertiary" Href="https://learn.microsoft.com/aspnet/core/">Contact Us</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+
+        <!-- Features Section -->
+        <MudPaper Class="mud-elevation-3 mt-5 p-4" Style="border-radius: 20px;">
+            <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-2">Key Highlights</MudText>
+            <MudDivider Class="mb-4" />
+            <MudGrid>
+                <MudItem xs="12" md="6">
+                    <MudCard Class="hover-elevation-2" Style="background-color: #fcfcfc;">
+                        <MudCardHeader>
+                            <MudIcon Icon="@Icons.Material.Filled.Visibility" Size="Size.Large" Color="Color.Success" />
+                            <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Real-Time Visibility</span></MudText>
+                        </MudCardHeader>
+                        <MudCardContent>
+                            <span style="color: #000;">Monitor and manage your orders as they happen.</span>
+                        </MudCardContent>
+                        <MudCardActions>
+                            <MudButton Variant="Variant.Outlined" Color="Color.Success" Href="/Orders">Learn More</MudButton>
+                        </MudCardActions>
+                    </MudCard>
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudCard Class="hover-elevation-2" Style="background-color: #fcfcfc;">
+                        <MudCardHeader>
+                            <MudIcon Icon="@Icons.Material.Filled.Dashboard" Size="Size.Large" Color="Color.Warning" />
+                            <MudText Typo="Typo.h6" Class="ml-2"><span style="color: #000;">Custom Dashboards</span></MudText>
+                        </MudCardHeader>
+                        <MudCardContent>
+                            <span style="color: #000;">Configure performance indicators that matter to you most.</span>
+                        </MudCardContent>
+                        <MudCardActions>
+                            <MudTooltip Text="Unavailable">
+                                <MudButton Variant="Variant.Outlined" Color="Color.Warning">View Dashboards</MudButton>
+                            </MudTooltip>
+                        </MudCardActions>
+                    </MudCard>
+                </MudItem>
+            </MudGrid>
+        </MudPaper>
+
+        <!-- Footer -->
+        <MudPaper Class="mud-elevation-2 mt-5 p-3" Style="background-color: #f2f2f2; border-radius: 12px;">
+            <MudText Typo="Typo.caption" Align="Align.Center">
+                © 2025 Capstone Project Inc. All rights reserved.
+            </MudText>
+        </MudPaper>
+    </MudContainer>
+
+    }
+    else
+    {
+    <!--Customer Dashboard-->
+    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+        <!-- Header Section -->
+        <MudPaper Class="mud-elevation-5 p-4">
+            <MudText Typo="Typo.h3" Align="Align.Center">Capstone Project</MudText>
+            <MudText Typo="Typo.subtitle1" Align="Align.Center">
+                Optimize your supply chain operations with ease.
+            </MudText>
+        </MudPaper>
+
+        <MudDivider />
+
+        <!-- Welcome Message & Date/Time -->
+        <MudCard Class="pa-4 mb-4" Style="background-color: #f5f5f5;">
+            <MudCardContent Class="d-flex flex-column align-items-center">
+                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, UserName!</MudText>
+                <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold mt-2">
+                    📅 Today's Date: <span style="color: #000;">@DateTime.Now.ToString("MMMM dd, yyyy")</span>
+                </MudText>
+
+                <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold">
+                    ⏰ Current Time: <span style="color: #000;">@DateTime.Now.ToString("hh:mm tt")</span>
+                </MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <!-- Orders Overview -->
+        <MudPaper Class="mud-elevation-3 mt-5 p-5" Style="border-radius: 20px; background-color: #f7f8fc;">
+            <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-3"><span style="color: #000;">Your Current Orders</span></MudText>
+            <MudDivider Class="mb-4" />
+            @*<MudTable Items="@Pages.Employee.Orders.orders" Dense="true" Bordered="true">
+        <HeaderContent>
+        <MudTh>Order ID</MudTh>
+        <MudTh>Shipment Status</MudTh>
+        <MudTh>Estimated Arrival</MudTh>
+        <MudTh>Actions</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+        <MudTd>@context.OrderId</MudTd>
+        <MudTd>@context.ShipmentStatus</MudTd>
+        <MudTd>@context.EstimatedArrival</MudTd>
+        <MudTd>
+        <MudButton Variant="Variant.Outlined" Color="Color.Secondary" Size="Size.Small" StartIcon="@Icons.Material.Filled.Details">
+        Details
+        </MudButton>
+        </MudTd>
+        </RowTemplate>
+        </MudTable>*@
+        </MudPaper>
+
+        <!-- Testimonials Section -->
+        <MudPaper Class="mud-elevation-3 mt-5 p-5" Style="background-color: #f7f8fc; border-radius: 20px;">
+            <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-3"><span style="color: #000;">What Our Customers Say</span></MudText>
+            <MudDivider Class="mb-4" />
+            <MudGrid>
+                <MudItem xs="12" md="6">
+                    <MudCard Class="p-3" Style="background-color: #ffffff; border-radius: 15px;">
+                        <MudText Typo="Typo.body1">
+                            <span style="color: #000;">"Tracking my orders is so easy and seamless. Great experience!"</span>
+                        </MudText>
+                        <MudText Typo="Typo.caption" Align="Align.Right"><span style="color: #000;">- Happy Customer</span></MudText>
+                    </MudCard>
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudCard Class="p-3" Style="background-color: #ffffff; border-radius: 15px;">
+                        <MudText Typo="Typo.body1">
+                            <span style="color: #000;">"The updates are timely, and I always know where my shipment is."</span>
+                        </MudText>
+                        <MudText Typo="Typo.caption" Align="Align.Right"><span style="color: #000;">- Satisfied Client</span></MudText>
+                    </MudCard>
+                </MudItem>
+            </MudGrid>
+        </MudPaper>
+
+        <!-- Footer -->
+        <MudPaper Class="mud-elevation-1 mt-5 p-3" Style="background-color: #f2f2f2; border-radius: 12px;">
+            <MudText Typo="Typo.caption" Align="Align.Center">
+                <span style="color: #000;">© 2025 Supply Chain Solutions Inc. All rights reserved.</span>
+            </MudText>
+        </MudPaper>
+    </MudContainer>
+    }
+
+@code {
+    private bool _isEmployee;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await authentication.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.IsInRole("employee"))
+            _isEmployee = true;
+    }
+
+}
