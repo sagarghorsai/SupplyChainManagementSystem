@@ -622,12 +622,20 @@ video {
   margin-left: 0.75rem;
 }
 
+.ms-2{
+  margin-inline-start: 0.5rem;
+}
+
 .mt-0{
   margin-top: 0px;
 }
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
 }
 
 .mt-3{
@@ -640,10 +648,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mt-28{
-  margin-top: 7rem;
 }
 
 .block{
@@ -684,14 +688,6 @@ video {
 
 .gap-2{
   gap: 0.5rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
-.rounded-sm{
-  border-radius: 0.125rem;
 }
 
 .p-3{
