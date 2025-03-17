@@ -15,6 +15,7 @@ namespace DataAccessLibrary.Model
         public string user_Last { get; set; }
 
         public string user_First { get; set; }
+        public string Email { get; set; } 
 
         public string user_Password { get; set; }
 

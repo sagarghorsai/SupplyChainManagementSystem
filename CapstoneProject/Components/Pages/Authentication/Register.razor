@@ -38,6 +38,12 @@
             </div>
 
             <div class="mb-3">
+                <label class="form-label">Email</label>
+                <InputText @bind-Value="registerUserModel.Email" type="email" class="form-control" placeholder="Enter email" />
+                <ValidationMessage For="() => registerUserModel.Email" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
                 <label class="form-label">Password</label>
                 <InputText @bind-Value="registerUserModel.user_Password" type="password" class="form-control" placeholder="Enter password" />
                 <ValidationMessage For="() => registerUserModel.user_Password" class="text-danger" />
@@ -79,7 +85,8 @@
                     user_First = registerUserModel.user_First,
                     user_Last = registerUserModel.user_Last,
                     user_Name = registerUserModel.user_Name,
-                    user_Password = registerUserModel.user_Password, // Hashing should be done in the data layer
+                    Email = registerUserModel.Email, // <-- Added Email field
+                    user_Password = registerUserModel.user_Password, // Hashing handled in the data layer
                     Role = "customer",
                     CreatedAt = DateTime.Now
                 };
@@ -89,14 +96,13 @@
 
             Console.WriteLine("User successfully registered!");
 
-            // Ensure Blazor's circuit is still active
             if (navigationManager != null)
             {
                 navigationManager.NavigateTo("/");
             }
             else
             {
-                Console.WriteLine("Cant go back home");
+                Console.WriteLine("Can't go back home");
             }
         }
         catch (Exception ex)
