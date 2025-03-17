@@ -71,7 +71,6 @@
                 <MudText Typo="Typo.h5" Class="ml-3">Capstone Project</MudText>
                 <MudSpacer />
                 <!-- <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" /> -->
-                
                 <!-- Menu Button -->
                 <MudMenu Dense
                           Variant="Variant.Text"
@@ -84,7 +83,8 @@
                               Label="Settings">
                          <MudMenuItem Icon="@Icons.Material.TwoTone.DarkMode"
                                       IconColor="Color.Dark"
-                                      Label="Dark Theme" />
+                                      Label="Dark Theme"
+                                      OnClick="@ToggleDarkMode" />
                      </MudMenu>
 
                      <MudDivider />
@@ -112,7 +112,8 @@
                                   Icon="@Icons.Material.Outlined.Info"
                                   IconColor="Color.Primary"
                                   Label="About" />
-                     <MudMenuItem Href="helpCenter"
+
+                     <MudMenuItem Href="https://support.google.com/"
                                       ForceLoad
                                   Icon="@Icons.Material.TwoTone.HelpOutline"
                                   IconColor="Color.Primary"
@@ -129,6 +130,7 @@
              <!-- Body Declaration -->
              <MudMainContent>
                  @Body
+                <MudThemeProvider @bind-IsDarkMode="_isDarkMode" Theme="_theme" />
             </MudMainContent>
 
             <!-- Error Handling -->
@@ -142,85 +144,17 @@
     </AuthorizeView>
 </MudLayout>
 
-@*
-<!-- MudBlazor 2 Main Menu Layout -->
-<MudLayout>
-    <!-- App Bar -->
-    <MudAppBar Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Capstone Project</MudText>
-        <MudSpacer />
-        <!-- <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" /> -->
-        <!-- Menu Button -->
-        <MudMenu Dense
-                  Variant="Variant.Text"
-                  Size="Size.Medium"
-                  Color="Color.Inherit"
-                  Icon="@Icons.Material.TwoTone.MoreVert">
-
-             <!-- Settings Button -->
-             <MudMenu StartIcon="@Icons.Material.TwoTone.Settings"
-                      Label="Settings">
-                 <MudMenuItem Icon="@Icons.Material.TwoTone.DarkMode"
-                              IconColor="Color.Dark"
-                              Label="Dark Theme" />
-             </MudMenu>
-
-             <MudDivider />
-
-             <!-- Login/Logout Button -->
-             <MudMenuItem Href="/logout"
-                          ForceLoad
-                          Icon="@Icons.Material.TwoTone.Logout"
-                          IconColor="Color.Primary"
-                          Label="Logout" />
-
-             <MudDivider />
-
-             <!-- Other Buttons -->
-             <MudMenuItem Href="/profile"
-                          ForceLoad
-                          Icon="@Icons.Material.Outlined.AccountBox"
-                          IconColor="Color.Primary"
-                          Label="Profile" />
-
-
-             <MudMenuItem Href="https://learn.microsoft.com/aspnet/core/"
-                          Target="_blank"
-                          ForceLoad
-                          Icon="@Icons.Material.Outlined.Info"
-                          IconColor="Color.Primary"
-                          Label="About" />
-             <MudMenuItem Href="helpCenter"
-                          ForceLoad
-                          Icon="@Icons.Material.TwoTone.HelpOutline"
-                          IconColor="Color.Primary"
-                          Label="Help Center" />
-
-         </MudMenu>
-     </MudAppBar>
-
-     <!-- Navigation Menu Drawer -->
-     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
-         <NavMenu />
-     </MudDrawer>
-
-     <!-- Body Declaration -->
-     <MudMainContent>
-         @Body
-    </MudMainContent>
-
-    <!-- Error Handling -->
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-</MudLayout>*@
-
 @code {
+    private MudTheme _theme = new();
+
     bool _drawerOpen = true;
+    private bool _isDarkMode = false;
     public string _currentPage = "";
+
+    void ToggleDarkMode()
+    {
+        _isDarkMode = !_isDarkMode; // Toggles between light and dark mode
+    }
 
     void onCurrentPage()
     {
@@ -233,39 +167,3 @@
         _drawerOpen = !_drawerOpen;
     }
 }
-@*
-<!-- HTML -->
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <AuthorizeView>
-                <NotAuthorized>
-                    <a href="/login">Login</a>
-                </NotAuthorized>
-                <Authorized>
-                    <a href="/logout">Logout</a>
-                </Authorized>
-            </AuthorizeView>
-
-            <a href="/profile">Profile</a>
-
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-
-            <a href="helpCenter">Help Center</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>*@
