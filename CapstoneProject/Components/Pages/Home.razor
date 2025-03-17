@@ -2,7 +2,9 @@
 
 @using CapstoneProject.Components.Pages
 @using DataAccessLibrary.Model
+@using DataAccessLibrary
 @inject AuthenticationStateProvider authentication
+
 
 <PageTitle>Home</PageTitle>
 
@@ -24,7 +26,7 @@
         <!-- Welcome Message & Date/Time -->
         <MudCard Class="pa-4 mb-4" Style="background-color: #f5f5f5;">
             <MudCardContent Class="d-flex flex-column align-items-center">
-                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, UserName!</MudText>
+                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, @userName!</MudText>
                 <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold mt-2">
                     📅 Today's Date: <span style="color: #000;">@DateTime.Now.ToString("MMMM dd, yyyy")</span>
                 </MudText>
@@ -163,7 +165,7 @@
         <!-- Welcome Message & Date/Time -->
         <MudCard Class="pa-4 mb-4" Style="background-color: #f5f5f5;">
             <MudCardContent Class="d-flex flex-column align-items-center">
-                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, UserName!</MudText>
+                <MudText Typo="Typo.h6" Color="Color.Tertiary">Welcome back, @userName!</MudText>
                 <MudText Typo="Typo.h6" Color="Color.Tertiary" Class="font-weight-bold mt-2">
                     📅 Today's Date: <span style="color: #000;">@DateTime.Now.ToString("MMMM dd, yyyy")</span>
                 </MudText>
@@ -233,7 +235,7 @@
 
 @code {
     private bool _isEmployee;
-
+    private string userName;
 
     protected override async Task OnInitializedAsync()
     {
@@ -242,6 +244,18 @@
 
         if (user.IsInRole("employee"))
             _isEmployee = true;
+
+
+        if(user.Identity.IsAuthenticated == true)
+        {
+            userName = user.Identity.Name;
+        }
+        else
+        {
+            userName = "Guest";
+        }
     }
+
+  
 
 }

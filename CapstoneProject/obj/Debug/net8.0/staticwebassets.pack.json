@@ -1,1019 +1,1019 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CapstoneProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\CapstoneProject.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\Inter-Italic-VariableFont_opsz,wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\Inter-Italic-VariableFont_opsz,wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\Inter-Italic-VariableFont_opsz,wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\Inter-VariableFont_opsz,wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\Inter-VariableFont_opsz,wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\Inter-VariableFont_opsz,wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_18pt-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_18pt-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_24pt-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_24pt-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Inter\\static\\Inter_28pt-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Inter\\static\\Inter_28pt-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\LibreFranklin-Italic-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\LibreFranklin-Italic-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\LibreFranklin-Italic-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\LibreFranklin-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\LibreFranklin-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\LibreFranklin-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Libre_Franklin\\static\\LibreFranklin-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\Roboto-Italic-VariableFont_wdth,wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\Roboto-Italic-VariableFont_wdth,wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\Roboto-Italic-VariableFont_wdth,wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\Roboto-VariableFont_wdth,wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\Roboto-VariableFont_wdth,wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\Roboto-VariableFont_wdth,wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_Condensed-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_Condensed-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Thin.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Thin.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ThinItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto\\static\\Roboto_SemiCondensed-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Roboto_Flex\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Roboto_Flex\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto_Flex\\RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\static\\RobotoFlex-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Roboto_Flex\\static\\RobotoFlex-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Roboto_Flex\\static\\RobotoFlex-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\Rubik-Italic-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\Rubik-Italic-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\Rubik-Italic-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\Rubik-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\Rubik-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\Rubik-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Rubik\\static\\Rubik-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Rubik\\static\\Rubik-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\OFL.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\OFL.txt",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\README.txt",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\README.txt",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\README.txt"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\SourceSans3-Italic-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\SourceSans3-Italic-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\SourceSans3-Italic-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\SourceSans3-VariableFont_wght.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\SourceSans3-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\SourceSans3-VariableFont_wght.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Black.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Black.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-BlackItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Bold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Bold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-BoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLight.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Italic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Italic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Light.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Light.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-LightItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Medium.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Medium.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-MediumItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Regular.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-Regular.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBold.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Source_Sans_3\\static\\SourceSans3-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\home-animated.gif",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\home-animated.gif",
       "PackagePath": "staticwebassets\\Icons\\home-animated.gif"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\home.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\home.png",
       "PackagePath": "staticwebassets\\Icons\\home.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\inventory-clipboard.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\inventory-clipboard.png",
       "PackagePath": "staticwebassets\\Icons\\inventory-clipboard.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\inventory-trolly.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\inventory-trolly.png",
       "PackagePath": "staticwebassets\\Icons\\inventory-trolly.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order-animated.gif",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order-animated.gif",
       "PackagePath": "staticwebassets\\Icons\\order-animated.gif"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order-cart.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order-cart.png",
       "PackagePath": "staticwebassets\\Icons\\order-cart.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\order.png",
       "PackagePath": "staticwebassets\\Icons\\order.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\report.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\report.png",
       "PackagePath": "staticwebassets\\Icons\\report.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\settings-animated.gif",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\settings-animated.gif",
       "PackagePath": "staticwebassets\\Icons\\settings-animated.gif"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\settings.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\settings.png",
       "PackagePath": "staticwebassets\\Icons\\settings.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\supplier.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\Icons\\supplier.png",
       "PackagePath": "staticwebassets\\Icons\\supplier.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\app.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\kit.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\kit.css",
       "PackagePath": "staticwebassets\\css\\kit.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\landingpage.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\landingpage.css",
       "PackagePath": "staticwebassets\\css\\landingpage.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\normalize.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\tailwind.css",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\css\\tailwind.css",
       "PackagePath": "staticwebassets\\css\\tailwind.css"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\04f14af5199093cdd29a89eb295febf5_104f14af5199093cdd29a89eb295febf5.jpeg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\04f14af5199093cdd29a89eb295febf5_104f14af5199093cdd29a89eb295febf5.jpeg",
       "PackagePath": "staticwebassets\\images\\04f14af5199093cdd29a89eb295febf5_104f14af5199093cdd29a89eb295febf5.jpeg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\CoreTrack Logo )Background Removed.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\CoreTrack Logo )Background Removed.png",
       "PackagePath": "staticwebassets\\images\\CoreTrack Logo )Background Removed.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\FredHeadShot.jpg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\FredHeadShot.jpg",
       "PackagePath": "staticwebassets\\images\\FredHeadShot.jpg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-500x243.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-500x243.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-500x243.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-800x389.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone-p-800x389.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone-p-800x389.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot-phone.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot-phone.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-500x320.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-500x320.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-500x320.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-800x512.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2-p-800x512.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot2-p-800x512.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot2.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot2.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-500x317.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-500x317.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-500x317.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-800x507.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5-p-800x507.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot5-p-800x507.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\Metric-screenshot5.png",
       "PackagePath": "staticwebassets\\images\\Metric-screenshot5.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-500x200.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-500x200.png",
       "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-500x200.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-800x320.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2-p-800x320.png",
       "PackagePath": "staticwebassets\\images\\analytics-graphic2-p-800x320.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\analytics-graphic2.png",
       "PackagePath": "staticwebassets\\images\\analytics-graphic2.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square-p-130x130q80.jpeg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square-p-130x130q80.jpeg",
       "PackagePath": "staticwebassets\\images\\bryant-square-p-130x130q80.jpeg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square.jpg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\bryant-square.jpg",
       "PackagePath": "staticwebassets\\images\\bryant-square.jpg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_chartboost-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_chartboost.png",
       "PackagePath": "staticwebassets\\images\\client_logo_chartboost.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_johnson_and_johnson-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_johnson_and_johnson.png",
       "PackagePath": "staticwebassets\\images\\client_logo_johnson_and_johnson.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_mammoth-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_mammoth.png",
       "PackagePath": "staticwebassets\\images\\client_logo_mammoth.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_neutrogena-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_neutrogena.png",
       "PackagePath": "staticwebassets\\images\\client_logo_neutrogena.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_ouya-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_ouya.png",
       "PackagePath": "staticwebassets\\images\\client_logo_ouya.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla-p-130x130q80.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla-p-130x130q80.png",
       "PackagePath": "staticwebassets\\images\\client_logo_tesla-p-130x130q80.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\client_logo_tesla.png",
       "PackagePath": "staticwebassets\\images\\client_logo_tesla.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\email-icon-white.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\email-icon-white.svg",
       "PackagePath": "staticwebassets\\images\\email-icon-white.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\facebook-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\facebook-icon.svg",
       "PackagePath": "staticwebassets\\images\\facebook-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\favicon.ico",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\images\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-bar-chart-4-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-bar-chart-4-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-bar-chart-4-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-control-panel-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-control-panel-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-control-panel-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-download-13-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-download-13-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-download-13-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-laptop-2-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-laptop-2-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-laptop-2-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-save-9-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-save-9-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-save-9-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-sitemap-7-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\iconmonstr-sitemap-7-icon.svg",
       "PackagePath": "staticwebassets\\images\\iconmonstr-sitemap-7-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\linkdin-icon-white.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\linkdin-icon-white.svg",
       "PackagePath": "staticwebassets\\images\\linkdin-icon-white.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Fastcompany.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Fastcompany.svg",
       "PackagePath": "staticwebassets\\images\\logo_Fastcompany.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Forbes.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Forbes.svg",
       "PackagePath": "staticwebassets\\images\\logo_Forbes.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Wired.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_Wired.svg",
       "PackagePath": "staticwebassets\\images\\logo_Wired.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_techcrunch.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_techcrunch.svg",
       "PackagePath": "staticwebassets\\images\\logo_techcrunch.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_zdnet.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\logo_zdnet.svg",
       "PackagePath": "staticwebassets\\images\\logo_zdnet.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sagar.jpg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sagar.jpg",
       "PackagePath": "staticwebassets\\images\\sagar.jpg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square-p-130x130q80.jpeg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square-p-130x130q80.jpeg",
       "PackagePath": "staticwebassets\\images\\sergie-square-p-130x130q80.jpeg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square.jpg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\sergie-square.jpg",
       "PackagePath": "staticwebassets\\images\\sergie-square.jpg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\twitter-icon.svg",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\twitter-icon.svg",
       "PackagePath": "staticwebassets\\images\\twitter-icon.svg"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\webclip.png",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\images\\webclip.png",
       "PackagePath": "staticwebassets\\images\\webclip.png"
     },
     {
-      "Id": "C:\\Users\\brois\\Desktop\\Desktop\\Work\\Projects\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\js\\landing.js",
+      "Id": "C:\\Users\\dosti\\OneDrive\\Desktop\\SupplyChainManagementSystem\\CapstoneProject\\wwwroot\\js\\landing.js",
       "PackagePath": "staticwebassets\\js\\landing.js"
     },
     {

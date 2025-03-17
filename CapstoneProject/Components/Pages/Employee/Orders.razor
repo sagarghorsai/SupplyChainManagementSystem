@@ -17,38 +17,42 @@ else if (!_orders.Any())
 else
 {
     <!-- HTML Orders -->/*
-    <table class="table-striped table">
-        <thead>
-            <tr>
-                <th>Order ID</th>
-                <th>Shipment Status</th>
-                <th>Shipment Date</th>
+                <table class="table-striped table">
+                    <thead>
+                    <tr>
+                    <th>Order ID</th>
+                    <th>Shipment Status</th>
+                    <th>Shipment Date</th>
                 <th>Estimated Arrival</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var order in _orders)
-            {
-                <tr>
-                    <td>@order.Order_Id</td>
-                    <td>
-                        <select @bind="order.Shipment_Confirmation" class="form-select">
-                            <option value="Pending">Pending</option>
-                            <option value="Shipped">Shipped</option>
+            <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in _orders)
+                        {
+                        <tr>
+                            <td>@order.Order_Id</td>
+                            <td>
+                                <select @bind="order.Shipment_Confirmation" class="form-select">
+                                <option value="Pending">Pending</option>
+                                <option value="Shipped">Shipped</option>
                             <option value="Delivered">Delivered</option>
                         </select>
-                    </td>
-                    <td>@order.Shipment_Date.ToShortDateString()</td>
-                    <td>@order.Estimated_Arrival_Date.ToShortDateString()</td>
-                    <td>
-                        <button class="btn btn-primary" @onclick="() => UpdateShipmentStatus(order.Order_Id, order.Shipment_Confirmation)">
+                        </td>
+                        <td>@order.Shipment_Date.ToShortDateString()</td>
+                        <td>@order.Estimated_Arrival_Date.ToShortDateString()</td>
+                            <td>
+                            <button class="btn btn-primary" @onclick="() => UpdateShipmentStatus(order.Order_Id, order.Shipment_Confirmation)">
                             Update Status
-                        </button>
-                    </td>
-                </tr>
-            }
-        </tbody>
+                            </button>
+
+                                <button class="btn btn-info ms-2" @onclick="() => ShowDetails(order.Order_Id)">
+                        Details
+                    </button>
+            </td>
+        </tr>
+    }
+    </tbody>
     </table>*/
     
     /********************************************************************************************/
@@ -75,16 +79,33 @@ else
                  <CellTemplate>
                      <MudStack Row>
                      <MudButton Size="@Size.Medium" Variant="Variant.Filled" Color="Color.Primary" @onclick="() => UpdateShipmentStatus(context.Item.Order_Id, context.Item.Shipment_Confirmation)">Update Status</MudButton>
-                 </MudStack>
+                        <MudButton Size="@Size.Medium" Variant="Variant.Filled" Color="Color.Primary" @onclick="() => ShowDetails(context.Item.Order_Id)">View Details</MudButton>
+                    </MudStack>
              </CellTemplate>
          </TemplateColumn>
      </Columns>
  </MudDataGrid>
+    @if (selectedOrder != null)
+    {
+        <h4 class="mt-4">Order Details</h4>
+        <p><strong>Customer Name:</strong> @selectedOrder.CustomerName</p>
+        <p><strong>Customer Email:</strong> @selectedOrder.CustomerEmail</p>
+        <p><strong>Order Total:</strong> $@selectedOrder.Total_Amount</p>
+        <p><strong>Order Items:</strong></p>
+        <ul>
+            @foreach (var item in selectedOrder.Items)
+            {
+                <li>@item.Name - @item.Quantity_ordered x $@item.Price</li>
+            }
+        </ul>
+    }
 }
 
 @code {
     <!-- MudBlazor Variables -->
     public IEnumerable<ShipmentModel> _orders = new List<ShipmentModel>();
+    private OrderDetail selectedOrder;
+
     private List<string> validStatuses = new List<string> { "Pending", "Shipped", "Delivered" };
     private bool _readOnly;
     private bool _isCellEditMode = true;
@@ -143,6 +164,18 @@ else
         catch (Exception ex)
         {
             Console.WriteLine($"Error updating shipment status for OrderId {orderId}: {ex.Message}");
+        }
+    }
+
+    private async Task ShowDetails(int orderId)
+    {
+        try
+        {
+            selectedOrder = await ShipmentData.GetOrderDetails(orderId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching details for OrderId {orderId}: {ex.Message}");
         }
     }
 }
